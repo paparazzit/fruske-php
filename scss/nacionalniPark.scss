@@ -31,9 +31,10 @@ section.national_hero {
 		left: 50%;
 		transform: translate(-50%, -50%);
 		-o-transform: translate(-50%, -50%);
-		padding: 50px;
-		width: 30%;
-		min-width: 575px; // display: none;
+		padding: 50px 50px;
+		width: 495px;
+		// height: 533px;
+		// min-width: 575px
 		h2 {
 			font-size: 2.7rem;
 			display: inline-block;
@@ -109,7 +110,7 @@ section.national_text {
 			margin-bottom: 20px;
 			line-height: 1.3;
 			span {
-				font-weight: 500;
+				font-weight: 600;
 			}
 			&.accs {
 				color: $accents_green;
@@ -151,7 +152,7 @@ article.act_article {
 	p {
 		line-height: 1.4;
 		span {
-			font-weight: 500;
+			font-weight: 600;
 		}
 		margin-bottom: 20px;
 	}

@@ -7,8 +7,13 @@ function Slider(slider) {
 		this.items_container = this.slider.querySelector(".items_container");
 		this.current_item = this.slider.querySelector("#curent_itm");
 		this.total_items = this.slider.querySelector("#total_itm");
-		this.left = this.slider.querySelector(".touchLeft");
+		// this.left = this.slider.querySelector(".touchLeft");
 		this.right = this.slider.querySelector(".touchRight");
+		this.img_modal = document.querySelector(".slider .img_modal");
+		this.close_modal = document.querySelector(".slider .img_modal .close");
+		this.modal_img_wrapper = document.querySelector(
+			".slider .modal_img_wrapper"
+		);
 	} else {
 		console.log("nema ga");
 	}
@@ -22,7 +27,6 @@ function Slider(slider) {
 	this.slideIndex = 0;
 	this.item_width = 0;
 	this.item_height = 0;
-	
 
 	// SET SIZE
 	this.setSize = function () {
@@ -56,7 +60,8 @@ function Slider(slider) {
 	this.right.addEventListener(
 		"touchmove",
 		(e) => {
-			e.preventDefault();
+			console.log(e.touches[0].clientY);
+			window.scrollBy(e.touches[0].clientY);
 		},
 		false
 	);
@@ -70,20 +75,29 @@ function Slider(slider) {
 	let touchEndPos = 0;
 	let touchS = 0;
 	let touchEnd = 0;
+	let touchStartY = 0;
+	let touchEndY = 0;
 	this.touchDirection = function (e, message) {
 		if (e.type === "touchend") {
 			touchEnd = e.timeStamp;
 			touchEndPos = e.changedTouches[0].screenX;
+			touchEndY = e.changedTouches[0].screenY;
 			// console.log(message, touchEndPos);
+			console.log("end", e.changedTouches[0]);
 		}
 		if (e.type === "touchstart") {
 			touchS = e.timeStamp;
 			touchStartPos = e.changedTouches[0].screenX;
+			touchStartY = e.changedTouches[0].screenY;
 			// console.log(message, touchStartPos);
+			console.log("start", e.changedTouches[0]);
 		}
-		if (touchEnd - touchS > 150) {
+
+		// console.log("Y", touchEndY + touchStartPos);
+		// console.log("X", touchEnd + touchS);
+		if (touchEnd - touchS > 50) {
 			// console.log(message, c);
-			console.log(touchS, " : ", touchEnd);
+			// console.log(touchS, " : ", touchEnd);
 			if (touchStartPos > touchEndPos) {
 				this.nextSlide(this.resizeDims);
 			} else {
@@ -109,6 +123,29 @@ function Slider(slider) {
 			this.item_width * (this.index + 1) + this.index * 20 + "px";
 		this.total_items.innerText = "0" + (this.total_count + 1);
 	};
+
+	this.show_img = function () {
+		this.items.forEach((item, idx) => {
+			item.addEventListener("click", (e) => {
+				this.img_modal.classList.add("show_img_modal");
+				let currentImg = item.children[0].getAttribute("src");
+				let img = document.createElement("img");
+
+				img.setAttribute("src", currentImg);
+				// this.modal_img_wrapper.appendChild(img);
+				setTimeout((e) => {
+					this.modal_img_wrapper.appendChild(img);
+					console.log("IDEM");
+				}, 390);
+			});
+		});
+	};
+	this.close_modal.addEventListener("click", () => {
+		this.img_modal.classList.remove("show_img_modal");
+		let img = this.modal_img_wrapper.children[0];
+		this.modal_img_wrapper.removeChild(img);
+		console.log(img);
+	});
 	this.setCounts = function () {
 		this.curentItem = "0" + (this.index + 1);
 	};

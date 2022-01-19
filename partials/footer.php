@@ -48,7 +48,8 @@
 								<li><a href="resort.html">Resort</a></li>
 								<li><a href="apartmani.html">Apartmani</a></li>
 								<li><a href="nacionalniPark.html">Nacionalni park</a></li>
-								<li><a href="#">Video</a></li>
+								<li><a href="#"   onclick="show_video(event)" 
+							data-src ='https://player.vimeo.com/video/667702731?h=4ea631c1d3&autoplay=1'>Video</a></li>
 								<li><a href="investitor.html">Investitor</a></li>
 								<li><a href="#">Brošura</a></li>
 								<li><a href="kontakt.html">Kontakt</a></li>
@@ -65,13 +66,18 @@
                 <?php if($pageTitle !== "kontakt"):?>
 				<div class="contact_badge">
 					<div class="contact-wrapper">
-						<a href="kontakt.php" class="contact-text">Kontaktirajte nas</a>
-						<a href="#" class="mail"><img src="assets/icons/mail_white.svg" alt=""></a>
+						
+						<a href="kontakt.php" class="mail"><img src="assets/icons/mail_white.svg" alt=""></a>
 						<a href="#" class="phone"><img src="assets/icons/phone.svg" alt=""></a>
 						
 					</div>
 				</div>
                 <?php endif;?>
+
+				<div class="video_wrapper" onclick="close_video()" >
+						<div class="close" onclick="close_video()"><span class="_1"></span> <span class="_2"></span></div>
+						<iframe width="950" height="534" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
 		
 
 

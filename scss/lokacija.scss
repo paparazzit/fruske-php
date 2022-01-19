@@ -91,6 +91,7 @@ section.loc {
 				top: 0;
 				right: 0;
 				width: 100%;
+				min-width: 320px;
 			}
 			order: 2;
 		}
@@ -104,6 +105,49 @@ section.loc {
 	}
 }
 
+.map_loc#map-section {
+	.container {
+		.map-legend {
+			h2 {
+				@include fluid-type(320px, 1920px, 40px, 60px);
+				line-height: 1;
+			}
+			.btn {
+				padding: 0.9em 1.2em;
+				width: 250px;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				img {
+					width: 24px;
+				}
+			}
+		}
+		a.btn {
+			display: none;
+		}
+	}
+	@media (max-width: 680px) {
+		.container {
+			.map-legend {
+				.btn {
+					display: none;
+				}
+			}
+			a.btn {
+				padding: 0.9em 1.2em;
+				width: 250px;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				img {
+					width: 24px;
+				}
+			}
+		}
+	}
+}
+
 section.pano_loc {
 	display: flex;
 	align-self: center;
@@ -111,8 +155,8 @@ section.pano_loc {
 	margin: 150px 0;
 
 	.left {
-		flex: 0 0 80%;
-		width: 80%;
+		flex: 0 0 75%;
+		width: 75%;
 		position: relative;
 
 		iframe {
@@ -122,18 +166,20 @@ section.pano_loc {
 		}
 	}
 	.right {
-		flex: 0 0 20%;
-		width: 20%;
+		flex: 0 0 25%;
+		width: 25%;
 		position: relative;
 		.card_right {
 			position: absolute;
-			width: 450px;
+			width: calc(100% + 10%);
+			// border: 1px solid red;
+
 			top: 50%;
 			right: 0;
-			transform: translate(-20%, -50%);
-			-o-transform: translate(-20%, -50%);
-			height: 40%;
-			padding: 1rem 2rem;
+			transform: translate(-40%, -50%);
+			-o-transform: translate(-40%, -50%);
+			// height: 40%;
+			padding: 5rem 3rem;
 			background: white;
 			text-align: center;
 			display: flex;

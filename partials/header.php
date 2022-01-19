@@ -34,9 +34,9 @@
 		<div id="default">
 			<div class="hold" id="defualt-hold"></div>
 		</div>
-		<main>
+		<main onclick="void(0);">
 		
-				<nav>
+				<nav class="nav_bar">
 					<div class="drop_wrapper">
 						<div class="mob_logo">
 							<img src="assets/mob_logo.svg" alt="">
@@ -67,7 +67,8 @@
 											/>
 										</svg>
 									</div>
-									<a class="slide-link" href="">Video</a>
+									<a href="#" class="slide-link"  onclick="show_video(event)" 
+							data-src ='https://player.vimeo.com/video/667702731?h=4ea631c1d3&autoplay=1'>Video</a>
 								</div>
 								<div class="nav-item">
 									<div class="nav_img">

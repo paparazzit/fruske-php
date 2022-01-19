@@ -9,38 +9,7 @@ require 'partials/pageHeader.php';
 			<section class="resort_des">
 				<div class="container">
 					<div class="row">
-						<div class="text_wrapper">
-							<h2>INVESTITOR</h2>
-							<p>
-								Kompanija Promont Group koja već preko 10 godina uspešno posluje
-								na rastućoj turističkoj destinaciji Fruška Gora - Banja Vrdnik
-								predstavlja sinonim za kvalitet i pouzdanost.
-							</p>
-							<p>
-								Iskusan tim profesionalnih menadžera već više od decenije
-								uspešno upravlja sledećim hotelima:
-							</p>
-							<ul class="bld">
-								<li>Hotel Premier Aqua 5*</li>
-								<li>Etno Kompleks Vrdnička Kula 4*</li>
-								<li>Hotel & Spa Resort Fruške Terme 4*</li>
-							</ul>
-							<p>
-								i preneće svoje bogato iskustvo razvijanja Resorta Fruške Terme,
-								vodeće destinacije za odmor, i na projekat Fruške Residence, a
-								sve kako biste pronašli savršen kutak za Vas i Vašu porodicu i
-								uživali u oazi mira kakva je Fruška Gora i lekovitim svojstvima
-								termalne vode Banje Vrdnik, i to tokom cele godine.
-							</p>
-							<p>
-								Unapred se radujemo ako se odlučite da postanete deo ove priče
-								koja je tek na početku svog razvoja i čija
-								<span>
-									krovna vizija jeste da postane vodeća spa resort destinacija u
-									regionu do 2025. godine.
-								</span>
-							</p>
-						</div>
+						
 						<div class="text_wrapper">
 							<h2>O RESORTU</h2>
 							<p>Sadržaji Resorta Fruške Terme:</p>

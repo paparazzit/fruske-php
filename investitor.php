@@ -79,45 +79,7 @@ require "partials/header.php"
 								</span>
 							</p>
 						</div>
-						<div class="text_wrapper">
-							<h2>O RESORTU</h2>
-							<p>Sadržaji Resorta Fruške Terme:</p>
-							<p>Najveći <span>vodeni svet</span> u Srbiji</p>
-							<ul>
-								<li>
-									12 bazena sa lekovitom termo-mineralnom vodom (6 otvorenih I 6
-									zatvorenih) i 5 vrsta tobogana
-								</li>
-							</ul>
-							<p>
-								Najveći <span>sauna svet</span> u Srbiji - preko 10 vrsta sauna,
-								parnih kupatila, slanih soba, tepidarijuma, itd.)
-							</p>
-							<ul>
-								<li>
-									Najveći hotelski kongresni centar u Srbiji (16 konferencijskih
-									sala rasporedjenih u 3 hotela)
-								</li>
-							</ul>
-							<p>Najveći <span>dečiji vodeni svet</span> u Srbiji</p>
-							<ul>
-								<li>
-									Zimski dečiji svet sa dva bazena, toboganom i pećinom, letnji
-									dečiji svet sa 15 vrsta vodenih prskalica, suvom igraonicom,
-									bogatim programom za animaciju dece I toboganima za razne
-									uzdraste
-								</li>
-							</ul>
-							<p>
-								Prvi <span>Adults Only Hotel u Srbiji</span> – Hotel Premier
-								Aqua
-							</p>
-							<p>Prve <span>Terme</span> u Srbiji – Hotel Fruške Terme</p>
-							<p>
-								Nudistički Spa Prvi <span>Nudistički Spa</span> u Srbiji – Adam
-								& Eve Spa, Hotel Fruške Terme
-							</p>
-						</div>
+						
 					</div>
 				</div>
 			</section>

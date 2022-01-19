@@ -1,12 +1,13 @@
 nav {
 	background-color: $white;
 	position: fixed;
-	z-index: 1030;
+
 	width: 100%;
 	top: 0;
 	left: 0;
 	// border: 1px solid red;
 	padding: 18px 5% 18px 10%;
+	z-index: 5010;
 
 	border-bottom: 1px solid lighten($fnt_clr, 70%);
 	.drop_wrapper {
@@ -17,9 +18,9 @@ nav {
 		}
 		.drop_down {
 			.link {
-				font-size: 0.75rem;
+				font-size: 0.85rem;
 				text-transform: uppercase;
-				margin-right: 1.2rem;
+				margin-right: 1rem;
 				font-family: $hdln_font;
 				font-weight: 600;
 				&:last-child {
@@ -29,7 +30,7 @@ nav {
 		}
 		.sideNav {
 			@include flex(center, center, nowrap, row);
-			font-size: 0.75rem;
+			font-size: 0.9rem;
 
 			.icons {
 				@include flex(center, center, nowrap, row);
@@ -75,12 +76,12 @@ nav {
 
 	.burger {
 		display: none;
-		align-items: center;
+		align-items: flex-end;
 		justify-content: space-between;
 		flex-direction: column;
 
-		height: 0.9rem;
-		width: 1.3rem;
+		height: 1rem;
+		width: 200px;
 		transition: $transition-out;
 		-o-transition: $transition-out;
 		-webkit-transition: $transition-out;
@@ -88,12 +89,15 @@ nav {
 		// overflow: hidden;
 		cursor: pointer;
 		position: relative;
-		z-index: 2020;
+		z-index: 5090;
+
 		span {
+			position: relative;
 			display: block;
 			height: 2px;
-			width: 100%;
+			width: 1.3rem;
 			background: $fnt_clr;
+			z-index: 1010;
 			pointer-events: none;
 		}
 		&.active {
