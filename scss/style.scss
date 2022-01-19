@@ -356,7 +356,7 @@ header {
 }
 
 .map-section {
-	margin-top: 30px;
+	margin-top: 80px;
 	background-color: $bg_green;
 	background-image: url(../assets/map/map-bg.png);
 	background-size: cover;
@@ -1080,6 +1080,7 @@ section.pano {
 			transform: scale(0);
 			background-color: rgba(0, 0, 0, 0.801);
 			position: fixed;
+
 			top: 0;
 			left: 0;
 
@@ -1087,15 +1088,16 @@ section.pano {
 			transition: 0.4s all ease-in-out;
 			z-index: -1;
 			&.show_img_modal {
+				padding: 0 10%;
 				transform: scale(1);
-				z-index: 2050;
+				z-index: 6020;
 				min-height: 100vh;
 				min-width: 100vw;
 				display: flex;
 				align-items: center;
 				justify-content: center;
 				.modal_img_wrapper {
-					height: 90%;
+					height: 80%;
 
 					img {
 						width: 100%;
@@ -1277,6 +1279,11 @@ section.pano {
 			display: flex;
 			justify-content: center;
 			flex-wrap: wrap;
+			.img_modal {
+				&.show_img_modal {
+					padding: 0 5%;
+				}
+			}
 			.touchRight {
 				top: 150px;
 			}

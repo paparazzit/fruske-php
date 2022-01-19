@@ -14,8 +14,6 @@ function Slider(slider) {
 		this.modal_img_wrapper = document.querySelector(
 			".slider .modal_img_wrapper"
 		);
-	} else {
-		console.log("nema ga");
 	}
 	this.index = 0;
 	this.totla_count = 0;
@@ -135,17 +133,26 @@ function Slider(slider) {
 				// this.modal_img_wrapper.appendChild(img);
 				setTimeout((e) => {
 					this.modal_img_wrapper.appendChild(img);
-					console.log("IDEM");
 				}, 390);
 			});
 		});
 	};
 	this.close_modal.addEventListener("click", () => {
+		// this.img_modal.classList.remove("show_img_modal");
+		// let img = this.modal_img_wrapper.children[0];
+		// this.modal_img_wrapper.removeChild(img);
+		// console.log(img);
+		this.close_f();
+	});
+	this.img_modal.addEventListener("click", () => {
+		this.close_f();
+	});
+	this.close_f = function () {
 		this.img_modal.classList.remove("show_img_modal");
 		let img = this.modal_img_wrapper.children[0];
 		this.modal_img_wrapper.removeChild(img);
 		console.log(img);
-	});
+	};
 	this.setCounts = function () {
 		this.curentItem = "0" + (this.index + 1);
 	};

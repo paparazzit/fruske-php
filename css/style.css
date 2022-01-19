@@ -1012,6 +1012,7 @@ section.investInfo {
     justify-content: space-evenly;
     flex-wrap: wrap; }
     section.investInfo .info_logos .logo_wrapper {
+      margin: 80px 0;
       flex: 0 0 50%;
       width: 50%; }
       section.investInfo .info_logos .logo_wrapper .img_wrapper {
@@ -1028,6 +1029,7 @@ section.investInfo {
           display: block; }
     section.investInfo .info_logos .text_wrapper {
       padding: 40px;
+      text-align: center;
       flex: 0 0 50%;
       width: 50%; }
       section.investInfo .info_logos .text_wrapper ul {
@@ -1867,14 +1869,15 @@ section.pano_loc {
     flex: 0 0 75%;
     width: 75%;
     position: relative; }
-    section.pano_loc .left iframe {
+    section.pano_loc .left img {
       width: 100%;
       height: 720px;
       display: block; }
   section.pano_loc .right {
     flex: 0 0 25%;
     width: 25%;
-    position: relative; }
+    position: relative;
+    z-index: 2020; }
     section.pano_loc .right .card_right {
       position: absolute;
       width: calc(100% + 10%);
@@ -2521,7 +2524,7 @@ header {
       width: 100%; } }
 
 .map-section {
-  margin-top: 30px;
+  margin-top: 80px;
   background-color: #cadeb2;
   background-image: url(../assets/map/map-bg.png);
   background-size: cover;
@@ -3106,15 +3109,16 @@ section.pano {
       transition: 0.4s all ease-in-out;
       z-index: -1; }
       .sliderSection .slider .img_modal.show_img_modal {
+        padding: 0 10%;
         transform: scale(1);
-        z-index: 2050;
+        z-index: 6020;
         min-height: 100vh;
         min-width: 100vw;
         display: flex;
         align-items: center;
         justify-content: center; }
         .sliderSection .slider .img_modal.show_img_modal .modal_img_wrapper {
-          height: 90%; }
+          height: 80%; }
           .sliderSection .slider .img_modal.show_img_modal .modal_img_wrapper img {
             width: 100%;
             object-fit: cover;
@@ -3252,6 +3256,8 @@ section.pano {
       display: flex;
       justify-content: center;
       flex-wrap: wrap; }
+      .sliderSection .slider .img_modal.show_img_modal {
+        padding: 0 5%; }
       .sliderSection .slider .touchRight {
         top: 150px; }
       .sliderSection .slider .items_container {

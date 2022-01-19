@@ -24,12 +24,12 @@ require 'partials/pageHeader.php';
 								Najveći <span>sauna svet</span> u Srbiji - preko 10 vrsta sauna,
 								parnih kupatila, slanih soba, tepidarijuma, itd.)
 							</p>
-							<ul>
-								<li>
+							
+								<p>
 									Najveći hotelski kongresni centar u Srbiji (16 konferencijskih
 									sala rasporedjenih u 3 hotela)
-								</li>
-							</ul>
+								</p>
+							
 							<p>Najveći <span>dečiji vodeni svet</span> u Srbiji</p>
 							<ul>
 								<li>
@@ -51,7 +51,7 @@ require 'partials/pageHeader.php';
 						</div>
 						<div class="resort_card">
 							<div class="card_img">
-								<img src="assets/resort/card_1.jpg" alt="" />
+								<img src="assets/resort/card_1.jpg" alt="Kondo naselje Fruške Residence" />
 							</div>
 							<div class="card_body">
 								<h2>Odmor</h2>
@@ -70,7 +70,8 @@ require 'partials/pageHeader.php';
 
 						<div class="resort_card">
 							<div class="card_img">
-								<img src="assets/resort/card_2.jpg" alt="" />
+								<img src="assets/resort/card_2.jpg" alt="Wellness &
+									Spa program" />
 							</div>
 							<div class="card_body">
 								<h2>Wellnes & Spa</h2>
@@ -86,7 +87,7 @@ require 'partials/pageHeader.php';
 
 						<div class="resort_card">
 							<div class="card_img">
-								<img src="assets/resort/card_3.jpg" alt="" />
+								<img src="assets/resort/card_3.jpg" alt="usluge" />
 							</div>
 							<div class="card_body">
 								<h2>Odmor</h2>
@@ -104,7 +105,7 @@ require 'partials/pageHeader.php';
 
 						<div class="resort_card">
 							<div class="card_img">
-								<img src="assets/resort/card_4.jpg" alt="" />
+								<img src="assets/resort/card_4.jpg" alt="Priroda" />
 							</div>
 							<div class="card_body">
 								<h2>Priroda</h2>
@@ -122,7 +123,7 @@ require 'partials/pageHeader.php';
 
 						<div class="resort_card">
 							<div class="card_img">
-								<img src="assets/resort/card_5.jpg" alt="" />
+								<img src="assets/resort/card_5.jpg" alt="Istrazivanje" />
 							</div>
 							<div class="card_body">
 								<h2>Istraživanje</h2>
@@ -137,7 +138,7 @@ require 'partials/pageHeader.php';
 
 						<div class="resort_card">
 							<div class="card_img">
-								<img src="assets/resort/card_6.jpg" alt="" />
+								<img src="assets/resort/card_6.jpg" alt="Opustanje" />
 							</div>
 							<div class="card_body">
 								<h2>Opuštanje</h2>
@@ -164,28 +165,28 @@ require 'partials/pageHeader.php';
 					<div class="row">
 						<a href="#" class="blizu_card">
 							<div class="card_img">
-								<img src="assets/resort/card_7.jpg" alt="" />
+								<img src="assets/resort/card_7.jpg" alt="Bazeni" />
 							</div>
 							<div class="card_body">
-								<img src="assets/resort/card_icon.png" alt="" />
+								<img src="assets/resort/card_icon.png" alt="Resort fruske terme" />
 							</div>
 						</a>
 
 						<a href="#" class="blizu_card">
 							<div class="card_img">
-								<img src="assets/resort/card_8.jpg" alt="" />
+								<img src="assets/resort/card_8.jpg" alt="Bazeni fruske gora" />
 							</div>
 							<div class="card_body">
-								<img src="assets/resort/card_icon-2.png" alt="" />
+								<img src="assets/resort/card_icon-2.png" alt="Premier Aqua" />
 							</div>
 						</a>
 
 						<a href="#" class="blizu_card">
 							<div class="card_img">
-								<img src="assets/resort/card_9.jpg" alt="" />
+								<img src="assets/resort/card_9.jpg" alt="Vrdnicka kula" />
 							</div>
 							<div class="card_body">
-								<img src="assets/resort/card_icon-3.png" alt="" />
+								<img src="assets/resort/card_icon-3.png" alt="Etno komplek Vrdnicka Kula" />
 							</div>
 						</a>
 					</div>
@@ -196,7 +197,8 @@ require 'partials/pageHeader.php';
 				<h2>U blizini</h2>
 				<div class="container">
 					<div class="icons_wrapper">
-						<img src="assets/projekat/icon_kula.png" alt="" />
+						<img src="assets/projekat/icon_kula.png" alt="Istorijski spomenik
+Vrdnička kula " />
 						<div class="icon_text">
 							<p>
 								Istorijski spomenik <br />
@@ -205,7 +207,8 @@ require 'partials/pageHeader.php';
 						</div>
 					</div>
 					<div class="icons_wrapper">
-						<img src="assets/projekat/icon_kula-2.png" alt="" />
+						<img src="assets/projekat/icon_kula-2.png" alt="Etno kompleks
+Vrdnička kula " />
 						<div class="icon_text">
 							<p>
 								Etno kompleks <br />
@@ -214,7 +217,8 @@ require 'partials/pageHeader.php';
 						</div>
 					</div>
 					<div class="icons_wrapper">
-						<img src="assets/projekat/icon_resort.png" alt="" />
+						<img src="assets/projekat/icon_resort.png" alt="Resort
+Fruške terme" />
 						<div class="icon_text">
 							<p>
 								Resort <br />
@@ -223,13 +227,14 @@ require 'partials/pageHeader.php';
 						</div>
 					</div>
 					<div class="icons_wrapper">
-						<img src="assets/projekat/icon_bazeni.png" alt="" />
+						<img src="assets/projekat/icon_bazeni.png" alt="Otvoreni bazeni" />
 						<div class="icon_text">
 							<p>Otvoreni bazeni</p>
 						</div>
 					</div>
 					<div class="icons_wrapper">
-						<img src="assets/projekat/icon_premier.png" alt="" />
+						<img src="assets/projekat/icon_premier.png" alt="Hotel
+Premier Aqua" />
 						<div class="icon_text">
 							<p>
 								Hotel <br />
@@ -238,19 +243,19 @@ require 'partials/pageHeader.php';
 						</div>
 					</div>
 					<div class="icons_wrapper">
-						<img src="assets/projekat/icon_sport.png" alt="" />
+						<img src="assets/projekat/icon_sport.png" alt="Sportski centar" />
 						<div class="icon_text">
 							<p>Sportski centar</p>
 						</div>
 					</div>
 					<div class="icons_wrapper">
-						<img src="assets/projekat/icon_staza.png" alt="" />
+						<img src="assets/projekat/icon_staza.png" alt="Staza zdravlja" />
 						<div class="icon_text">
 							<p>Staza zdravlja</p>
 						</div>
 					</div>
 					<div class="icons_wrapper">
-						<img src="assets/projekat/icon_centar.png" alt="" />
+						<img src="assets/projekat/icon_centar.png" alt="Centar" />
 						<div class="icon_text">
 							<p>Centar</p>
 						</div>

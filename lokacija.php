@@ -30,7 +30,7 @@ require 'partials/pageHeader.php';
 				</div>
 				<div class="right">
 					<div class="img_wrapper">
-						<img src="assets/lokacija/lokacija_img.jpg" alt="" />
+						<img src="assets/lokacija/lokacija_img.jpg" alt="Fruške Residence" />
 					</div>
 				</div>
 			</section>
@@ -60,10 +60,10 @@ require 'partials/pageHeader.php';
 							<li class="location" data-point="8"><span>8.</span> Staza zdravlja</li>
 						</ol>
 						<a href="#" class="btn white mt-2"
-							><img src="assets/icons/google.png" alt=""> Pogledaj na Google mapi</a>
+							><img src="assets/icons/google.png" alt="google maps"> Pogledaj na Google mapi</a>
 					</article>
 					<article class="map-img" id="map_container">
-						<img src="assets/map/map_img.png" alt="" />
+						<img src="assets/map/map_img.png" alt="mapa fruske gore" />
 						<div class="lamela_1 lamele" id="lamela_1"></div>
 						<div class="lamela_2 lamele" id="lamela_2"></div>
 						<div
@@ -72,7 +72,7 @@ require 'partials/pageHeader.php';
 							data-top="44"
 							data-left="53"
 						>
-							<img src="assets/map/map_marker.png" alt="" />
+							<img src="assets/map/map_marker.png" alt="map marker fruska gora" />
 							<h3></h3>
 						</div>
 
@@ -82,7 +82,7 @@ require 'partials/pageHeader.php';
 							data-left="24"
 							data-top="26"
 						>
-							<img src="assets/map/map_marker.png" alt="" />
+							<img src="assets/map/map_marker.png" alt="map marker fruska gora" />
 							<h3></h3>
 						</div>
 
@@ -92,7 +92,7 @@ require 'partials/pageHeader.php';
 							data-left="41"
 							data-top="33"
 						>
-							<img src="assets/map/map_marker.png" alt="" />
+							<img src="assets/map/map_marker.png" alt="map marker fruska gora" />
 							<h3></h3>
 						</div>
 
@@ -102,7 +102,7 @@ require 'partials/pageHeader.php';
 							data-left="35"
 							data-top="42"
 						>
-							<img src="assets/map/map_marker.png" alt="" />
+							<img src="assets/map/map_marker.png" alt="map marker fruska gora" />
 							<h3></h3>
 						</div>
 
@@ -112,7 +112,7 @@ require 'partials/pageHeader.php';
 							data-left="38"
 							data-top="58"
 						>
-							<img src="assets/map/map_marker.png" alt="" />
+							<img src="assets/map/map_marker.png" alt="map marker fruska gora" />
 							<h3></h3>
 						</div>
 
@@ -122,7 +122,7 @@ require 'partials/pageHeader.php';
 							data-left="72.2"
 							data-top="84"
 						>
-							<img src="assets/map/map_marker.png" alt="" />
+							<img src="assets/map/map_marker.png" alt="map marker fruska gora" />
 							<h3></h3>
 						</div>
 
@@ -132,7 +132,7 @@ require 'partials/pageHeader.php';
 							data-left="63"
 							data-top="90"
 						>
-							<img src="assets/map/map_marker.png" alt="" />
+							<img src="assets/map/map_marker.png" alt="map marker fruska gora" />
 							<h3></h3>
 						</div>
 
@@ -142,21 +142,21 @@ require 'partials/pageHeader.php';
 							data-left="55.5"
 							data-top="60"
 						>
-							<img src="assets/map/map_marker.png" alt="" />
+							<img src="assets/map/map_marker.png" alt="map marker fruska gora" />
 							<h3></h3>
 						</div>
 
 						
 					</article>
 					<a href="#" class="btn white mt-2"
-							><img src="assets/icons/google.png" alt=""> Pogledaj na Google mapi</a>
+							><img src="assets/icons/google.png" alt="google maps"> Pogledaj na Google mapi</a>
 				</div>
 			</section>
 
 			<div class="card-lamela" id="lamela_info" onclick="map_1.close_card()">
 								<div class="close_lml" onclick="map_1.close_card()"><span></span> <span></span></div>
 								<div class="img-wrapper">
-									<img class="l-img" src="assets/map/lamela-1.png" alt="" />
+									<img class="l-img" src="assets/map/lamela-1.png" alt="Map marker info image" />
 								</div>
 								<article>
 									<h3 class="l-title">Frušle Residence</h3>
@@ -170,10 +170,19 @@ require 'partials/pageHeader.php';
 			<!-- PANO SECTION -->
 			<section class="pano_loc pano" id="pano_loc">
 				<div class="left">
-					<iframe
+				<img src="assets/pano_1.jpg" alt="Panorama" class="pano_img">
+					<div class="pano_wrapper">
+					</div>
+					<!-- <iframe
 						src="https://mag.archi/Ciklorama-Terme/"
 						frameborder="0"
-					></iframe>
+					></iframe> -->
+					<div class="overlay_pano" data-frame = "https://mag.archi/Ciklorama-Terme/" >
+					<hgroup class="hg_pano"  >
+							<h2>Panorama</h2>
+							<p>pogledajte</p>
+						</hgroup>
+					</div>
 					<a
 						href="https://mag.archi/Ciklorama-Terme/"
 						target="blank"

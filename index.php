@@ -116,9 +116,9 @@
 					</div>
 					<div class="hero-text">
 						<div class="circle">
-							<img src="assets/circle.png" alt="" />
-							<img src="assets/circle.png" alt="" />
-							<img src="assets/circle.png" alt="" />
+							<img src="assets/circle.png" alt="circle" />
+							<img src="assets/circle.png" alt="circle" />
+							<img src="assets/circle.png" alt="circle" />
 						</div>
 						<p>
 							Sve što Vam je potrebno za život bez stresa, nalazi se u kompleksu
@@ -137,11 +137,11 @@
 								Fruške Residence - za bolje sutra.
 							</p>
 							<a href="#" class="btn white mt-2"
-								>Saznaj više <img src="assets/thin_big_right.png" alt=""
+								>Saznaj više <img src="assets/thin_big_right.png" alt="arrow"
 							/></a>
 						</hgroup>
 						<div class="headline-img " >
-							<img src="assets/hero_img-min.png" alt="" />
+							<img src="assets/hero_img-min.png" alt="Premium kondo naselje" />
 							<div class="play-btn-big " onclick="show_video(event)" data-src = "https://www.youtube.com/embed/Njg7RhiDCp8">
 								<svg
 									width="133"
@@ -200,7 +200,7 @@
 							/></a>
 						</article>
 						<article class="map-img" id="map_container">
-							<img src="assets/map/map_img.png" alt="" />
+							<img src="assets/map/map_img.png" alt="Fruške Residence" />
 							<div class="lamela_1 lamele" id="lamela_1"></div>
 							<div class="lamela_2 lamele" id="lamela_2"></div>
 							<div
@@ -209,7 +209,7 @@
 							data-top="44"
 							data-left="53"
 						>
-							<img src="assets/map/map_marker.png" alt="" />
+							<img src="assets/map/map_marker.png" alt="Map marker" />
 							<h3></h3>
 						</div>
 
@@ -219,7 +219,7 @@
 							data-left="24"
 							data-top="26"
 						>
-							<img src="assets/map/map_marker.png" alt="" />
+							<img src="assets/map/map_marker.png" alt="Map marker" />
 							<h3></h3>
 						</div>
 						 
@@ -229,7 +229,7 @@
 							data-left="41"
 							data-top="33"
 						>
-							<img src="assets/map/map_marker.png" alt="" />
+							<img src="assets/map/map_marker.png" alt="Map marker" />
 							<h3></h3>
 						</div>
 
@@ -239,7 +239,7 @@
 							data-left="35"
 							data-top="42"
 						>
-							<img src="assets/map/map_marker.png" alt="" />
+							<img src="assets/map/map_marker.png" alt="Map marker" />
 							<h3></h3>
 						</div>
 
@@ -249,7 +249,7 @@
 							data-left="38"
 							data-top="58"
 						>
-							<img src="assets/map/map_marker.png" alt="" />
+							<img src="assets/map/map_marker.png" alt="Map marker" />
 							<h3></h3>
 						</div>
 
@@ -259,7 +259,7 @@
 							data-left="72.2"
 							data-top="84"
 						>
-							<img src="assets/map/map_marker.png" alt="" />
+							<img src="assets/map/map_marker.png" alt="Map marker" />
 							<h3></h3>
 						</div>
 
@@ -270,7 +270,7 @@
 							data-left="63"
 							data-top="90"
 						>
-							<img src="assets/map/map_marker.png" alt="" />
+							<img src="assets/map/map_marker.png" alt="Map marker" />
 							<h3></h3>
 						</div>
 
@@ -280,7 +280,7 @@
 							data-left="55.5"
 							data-top="60"
 						>
-							<img src="assets/map/map_marker.png" alt="" />
+							<img src="assets/map/map_marker.png" alt="Map marker" />
 							<h3></h3>
 						</div>
 
@@ -306,7 +306,7 @@
 				<div class="card-lamela" id="lamela_info" onclick="map_1.close_card()">
 								<div class="close_lml" onclick="map_1.close_card()"><span></span> <span></span></div>
 								<div class="img-wrapper">
-									<img class="l-img" src="assets/map/lamela-1.png" alt="" />
+									<img class="l-img" src="assets/map/lamela-1.png" alt="Info card image" />
 								</div>
 								<article>
 									<h3 class="l-title">Frušle Residence</h3>
@@ -318,11 +318,11 @@
 							</div>
 				<!-- #endregion -->
 				<section class="pano apear_scroll">
-					<img src="assets/pano_1.jpg" alt="" class="pano_img">
+					<img src="assets/pano_1.jpg" alt="Panorama 1" class="pano_img">
 					<div class="pano_wrapper">
 					</div>
 					<!-- <iframe src="https://mag.archi/Ciklorama-Terme/" frameborder="0"></iframe> -->
-					<a href="https://mag.archi/Ciklorama-Terme/" target="blank" class="fullScreen">
+					<a href="https://mag.archi/Ciklorama-Terme/" alt="Panorama render" target="blank" class="fullScreen">
 						<div class="top"></div>
 						<div class="bottom"></div>
 					</a>
@@ -338,15 +338,15 @@
 				<section class="resort">
 					<article class="resort_inner">
 						<div class="img_wrapper apear_scroll">
-							<img src="assets/resort_1.jpg" alt=""  />
-							<img src="assets/resort_text.png" alt="" class="res_text">
+							<img src="assets/resort_1.jpg" alt="Resort "  />
+							<img src="assets/resort_text.png" alt="Resort text" class="res_text">
 						</div>
 						<div class="card-wrapper ">
 							<div class="card_style apear_scroll">
 								<div class="circle">
-									<img src="assets/circle.png" alt="" />
-									<img src="assets/circle.png" alt="" />
-									<img src="assets/circle.png" alt="" />
+									<img src="assets/circle.png" alt="circle" />
+									<img src="assets/circle.png" alt="circle" />
+									<img src="assets/circle.png" alt="circle" />
 								</div>
 								<h2 class="card_accent">Resort</h2>
 								<p>
@@ -355,7 +355,7 @@
 									planini, u prirodi.
 								</p>
 								<a href="resort.php" class="btn green mt-2">
-									Saznaj više <img src="assets/arrow_white.png" alt=""
+									Saznaj više <img src="assets/arrow_white.png" alt="arrow"
 								/></a>
 							</div>
 						</div>
@@ -374,48 +374,48 @@
 						<div class="touchRight"></div>
 						<div class="items_container">
 							<div class="item">
-								<img src="assets/slider/img_1.jpg" alt="" />
-								<img class="slider_num" src="assets/slider_nums/01.png" alt="">
+								<img src="assets/slider/img_1.jpg" alt="Resort, premium kondo naselje" />
+								<img class="slider_num" src="assets/slider_nums/01.png" alt="num1">
 							</div>
 							<div class="item">
-								<img src="assets/slider/img_2.jpg" alt="" />
-								<img class="slider_num" src="assets/slider_nums/02.png" alt="">
+								<img src="assets/slider/img_2.jpg" alt="Resort, premium kondo naselje" />
+								<img class="slider_num" src="assets/slider_nums/02.png" alt="num2">
 							</div>
 							<div class="item">
-								<img src="assets/slider/img_3.jpg" alt="" />
-								<img class="slider_num" src="assets/slider_nums/03.png" alt="">
+								<img src="assets/slider/img_3.jpg" alt="Resort, premium kondo naselje" />
+								<img class="slider_num" src="assets/slider_nums/03.png" alt="num3">
 							</div>
 							<div class="item">
-								<img src="assets/slider/img_4.jpg" alt="" />
-								<img class="slider_num" src="assets/slider_nums/04.png" alt="">
+								<img src="assets/slider/img_4.jpg" alt="Resort, premium kondo naselje" />
+								<img class="slider_num" src="assets/slider_nums/04.png" alt="num4">
 							</div>
 							<div class="item">
-								<img src="assets/slider/img_5.jpg" alt="" />
-								<img class="slider_num" src="assets/slider_nums/05.png" alt="">
+								<img src="assets/slider/img_5.jpg" alt="Resort, premium kondo naselje" />
+								<img class="slider_num" src="assets/slider_nums/05.png" alt="num5">
 							</div>
 							<div class="item">
-								<img src="assets/slider/img_6.jpg" alt="" />
-								<img class="slider_num" src="assets/slider_nums/06.png" alt="">
+								<img src="assets/slider/img_6.jpg" alt="Resort, premium kondo naselje" />
+								<img class="slider_num" src="assets/slider_nums/06.png" alt="num6">
 							</div>
 							<div class="item">
-								<img src="assets/slider/img_7.jpg" alt="" />
-								<img class="slider_num" src="assets/slider_nums/07.png" alt="">
+								<img src="assets/slider/img_7.jpg" alt="Resort, premium kondo naselje" />
+								<img class="slider_num" src="assets/slider_nums/07.png" alt="num7">
 							</div>
 							<div class="item">
-								<img src="assets/slider/img_8.jpg" alt="" />
-								<img class="slider_num" src="assets/slider_nums/08.png" alt="">
+								<img src="assets/slider/img_8.jpg" alt="Resort, premium kondo naselje" />
+								<img class="slider_num" src="assets/slider_nums/08.png" alt="num8">
 							</div>
 							<div class="item">
-								<img src="assets/slider/img_9.jpg" alt="" />
-								<img class="slider_num" src="assets/slider_nums/09.png" alt="">
+								<img src="assets/slider/img_9.jpg" alt="Resort, premium kondo naselje" />
+								<img class="slider_num" src="assets/slider_nums/09.png" alt="num9">
 							</div>
 							<div class="item">
-								<img src="assets/slider/img_10.jpg" alt="" />
-								<img class="slider_num" src="assets/slider_nums/10.png" alt="">
+								<img src="assets/slider/img_10.jpg" alt="Resort, premium kondo naselje" />
+								<img class="slider_num" src="assets/slider_nums/10.png" alt="num10">
 							</div>
 							<div class="item">
-								<img src="assets/slider/img_11.jpg" alt="" />
-								<img class="slider_num" src="assets/slider_nums/11.png" alt="">
+								<img src="assets/slider/img_11.jpg" alt="Resort, premium kondo naselje" />
+								<img class="slider_num" src="assets/slider_nums/11.png" alt="num11">
 							</div>
 							
 						</div>
@@ -426,7 +426,7 @@
 							<div class="buttons">
 								<div class="next_prev">
 									<div class="prev"><img src="assets/slider/slide_ctrl.png" alt=""> Prethodna</div>
-									<div class="next">Sledeća <img src="assets/slider/slide_ctrl.png" alt=""></div>
+									<div class="next">Sledeća <img src="assets/slider/slide_ctrl.png" alt="Circle"></div>
 								</div>
 							
 							</div>
@@ -446,7 +446,7 @@
 					<article class="apartmani_wrapper apear_scroll">
 						<div class="img-wrapper "  >
 				
-							<img src="assets/apartmani_1.jpg" alt=""   />
+							<img src="assets/apartmani_1.jpg" alt="Aparmani Premium kondo naselje"   />
 						</div>
 						<div class="card-wrapper " >
 							<div class="card_style ">
@@ -455,7 +455,7 @@
 									Fruške Residence se sastoji od 140 apartmana, za ličnu upotrebu
 									ili za izdavanje – izbor je isključivo Vaš!
 								</p>
-								<a href="apartmani.php" class="btn green mt-2">Saznaj više <img src="assets/arrow_white.png" alt=""
+								<a href="apartmani.php" class="btn green mt-2">Saznaj više <img src="assets/arrow_white.png" alt="arrow"
 									/></a></a>
 							</div>
 						</div>
@@ -464,16 +464,16 @@
 	
 				<section class="fruska_gora apear_scroll">
 					<article class="fruska_wrapper">
-						<img class="fruska_logo" src="assets/fruskaGora/logo.png" alt="">
+						<img class="fruska_logo" src="assets/fruskaGora/logo.png" alt="Logo">
 						<h3>Nacionalni park</h3>
 							<h2>Fruška gora</h2>
 							<p>Planina Fruška gora, proglašena je Nacionalnim parkom 1960. godine, zahvaljujući bujnom vegetacijom i velikim brojem naseljenih životinjskih vrsta, kao i bogatim kulturnim, istorijskim i arheološkim nasleđem.</p>
-							<a href="nacionalniPark.php" class="btn white mt-2">Saznaj više <img src="assets/thin_big_right.png" alt=""
+							<a href="nacionalniPark.php" class="btn white mt-2">Saznaj više <img src="assets/thin_big_right.png" alt="arrow"
 								/></a>
 					</article>
 				</section>
 				<section class="videoSection">
-					<img src="assets/videoSection/video.jpg" alt="">
+					<img src="assets/videoSection/video.jpg" alt="Video img">
 					<hgroup class="overlay_hg">
 						<div class="hg_text">
 							<h3>video prezentacija</h3>
@@ -484,9 +484,9 @@
 						</div><div class="video_controls">
 							
 							<div class="play_btn" onclick="show_video(event)" 
-							data-src ='https://player.vimeo.com/video/667702731?h=4ea631c1d3&autoplay=1'>
-								<img src="assets/videoSection/play_arrow.png" alt="">
-								<img src="assets/videoSection/video.jpg" alt="" class="blured">
+							data-src ='https://player.vimeo.com/video/667824551?h=39030031b3&autoplay=1'>
+								<img src="assets/videoSection/play_arrow.png" alt="arrow">
+								<img src="assets/videoSection/video.jpg" alt="Video blur" class="blured">
 							
 							</div>
 							<h3>Pogledaj</h3>
@@ -499,3 +499,6 @@
 				</section>
 	<?php require "partials/divisionCards.php"?>
 <?php require "partials/footer.php"?>
+
+
+

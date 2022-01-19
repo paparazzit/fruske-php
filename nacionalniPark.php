@@ -13,7 +13,7 @@ require "partials/pageHeader.php";
 			</section> -->
 
 			<section class="national_hero">
-				<img src="assets/nacionalni_park/bg_hero.jpg" alt="" />
+				<img src="assets/nacionalni_park/bg_hero.jpg" alt="Fruška gora" />
 				<div class="hero_text">
 					<h2>Fruška gora</h2>
 
@@ -37,7 +37,7 @@ require "partials/pageHeader.php";
 			</section>
 
 			<section class="national_text">
-				<img src="assets/nacionalni_park/backLogo.png" alt="" />
+				<img src="assets/nacionalni_park/backLogo.png" alt="Logo" />
 				<div class="text_wrapper">
 					<p>
 						Nacionalni park obuhvata površinu od 27.762 ha, na kojoj se nalazi
@@ -70,15 +70,15 @@ require "partials/pageHeader.php";
 			<div class="container activ_cont">
 				<section class="activities">
 					<div class="gigant_logo">
-						<img src="assets/nacionalni_park/logo_giant.png" alt="" />
+						<img src="assets/nacionalni_park/logo_giant.png" alt="logo" />
 					</div>
 					<div class="act_left">
-						<img src="assets/nacionalni_park/nacionalni_park_1.jpg" alt="" />
+						<img src="assets/nacionalni_park/nacionalni_park_1.jpg" alt="aktivnosti" />
 					</div>
 					<div class="act_right">
 						<article class="act_article">
 							<hgroup class="act_hg">
-								<img src="assets/nacionalni_park/park_icon_1.png" alt="" />
+								<img src="assets/nacionalni_park/park_icon_1.png" alt="manastiri" />
 								<h2>Manastiri</h2>
 							</hgroup>
 							<p>
@@ -103,7 +103,7 @@ require "partials/pageHeader.php";
 						<article class="act_article">
 							<div class="act_text">
 								<hgroup class="act_hg">
-									<img src="assets/nacionalni_park/park_icon_2.png" alt="" />
+									<img src="assets/nacionalni_park/park_icon_2.png" alt="Jezera Fruske gore" />
 									<h2>Jezera</h2>
 								</hgroup>
 								<p>
@@ -122,12 +122,12 @@ require "partials/pageHeader.php";
 								</p>
 							</div>
 							<div class="img_wrapper">
-								<img src="assets/nacionalni_park/article_1.jpg" alt="" />
+								<img src="assets/nacionalni_park/article_1.jpg" alt="Aktivnosti u prirodi" />
 							</div>
 						</article>
 						<article class="act_article">
 							<hgroup class="act_hg">
-								<img src="assets/nacionalni_park/park_icon_3.png" alt="" />
+								<img src="assets/nacionalni_park/park_icon_3.png" alt="Planinarenje" />
 								<h2>Planinarenje</h2>
 							</hgroup>
 							<p>
@@ -154,7 +154,7 @@ require "partials/pageHeader.php";
 					<div class="vrdnik_wrapper">
 						<article class="act_article">
 							<hgroup class="act_hg">
-								<img src="assets/nacionalni_park/park_icon_4.png" alt="" />
+								<img src="assets/nacionalni_park/park_icon_4.png" alt="Banja" />
 								<h2>Banja</h2>
 							</hgroup>
 							<p>
@@ -168,12 +168,12 @@ require "partials/pageHeader.php";
 								srčanih i reumatskih.
 							</p>
 							<div class="img_wrapper">
-								<img src="assets/nacionalni_park/article_2.jpg" alt="" />
+								<img src="assets/nacionalni_park/article_2.jpg" alt="Aktivnosti na Fruskoj gori" />
 							</div>
 						</article>
 						<article class="act_article">
 							<hgroup class="act_hg">
-								<img src="assets/nacionalni_park/park_icon_5.png" alt="" />
+								<img src="assets/nacionalni_park/park_icon_5.png" alt="Sta posetiti" />
 								<h2>Šta posetiti</h2>
 							</hgroup>
 							<p>
@@ -216,7 +216,7 @@ require "partials/pageHeader.php";
 						</article>
 						<article class="act_article">
 							<div class="img_wrapper">
-								<img src="assets/nacionalni_park/article_3.jpg" alt="" />
+								<img src="assets/nacionalni_park/article_3.jpg" alt="aktivnosti" />
 							</div>
 						</article>
 					</div>

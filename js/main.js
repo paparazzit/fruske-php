@@ -385,6 +385,7 @@ function ovarlayHide(current_pano) {
 
 	current_pano.classList.add("hide_overlay");
 }
+
 function showOverylay(current_pano) {
 	let pano_cont = current_pano.parentElement;
 

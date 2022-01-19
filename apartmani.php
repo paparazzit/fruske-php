@@ -9,7 +9,7 @@ require "partials/pageHeader.php";
 
 			<section class="apartmani_hero">
 				<div class="img_wrapper">
-					<img src="assets/apartmani/apartmani_hero.jpg" alt="" />
+					<img src="assets/apartmani/apartmani_hero.jpg" alt="apartmani" />
 					<div class="card_pointer lml_1">
                         <a href="https://configurator.mag.archi/projects/terme-a/"  class="pointer_bubble" target="_black">
                             <h2>B</h2>
@@ -18,7 +18,7 @@ require "partials/pageHeader.php";
                         <div class="bubble_line"></div>
                     </div>
                     <div class="card_pointer lml_2">
-                        <a href="https://configurator.mag.archi/projects/terme-b/"  target="_black" class="pointer_bubble">
+                        <a href="https://configurator.mag.archi/projects/terme-b/"  alt="panorama" target="_black" class="pointer_bubble">
                             <h2>A</h2>
                             <p>LAMELA</p>
                         </a>
@@ -53,23 +53,24 @@ require "partials/pageHeader.php";
                         proverite dostupnost na 3D modelu</h2>
                      </hgroup>
                      <div class="pano_selector">
-                         <a href="" class="btn green" id="panoS_1">Lamela A</a>
-                         <a href="" class="btn white" id="panoS_2">Lamela B</a>
+                         <a href="#" class="btn green" id="panoS_1">Lamela A</a>
+                         <a href="#" class="btn white" id="panoS_2">Lamela B</a>
                      </div>
                     
                 <div class="pano_wrapper">
 
                     <div class="render_wrapper">
                         <div class="render render_1">
-                            <img src="assets/apartmani/reneder_ph.jpg" alt="">
+                            <img src="assets/apartmani/reneder_ph.jpg" alt="Panorama Fruške Residence ">
                             <a href="https://configurator.mag.archi/projects/terme-a/" target="blank" class="fullScreen">
                                 <div class="top"></div>
                                 <div class="bottom"></div>
                             </a>
                         </div>
                         <div class="render render_2">
+                            <img src="assets/apartmani/reneder_ph.jpg" alt="Panorama Fruške Residence ">
                             <img src="assets/apartmani/render_ph_2.jpg" alt="">
-                            <a href="https://configurator.mag.archi/projects/terme-b/" target="blank" class="fullScreen">
+                            <a href="https://configurator.mag.archi/projects/terme-b/" alt="Panorama render" target="blank" class="fullScreen">
                                 <div class="top"></div>
                                 <div class="bottom"></div>
                             </a>
@@ -143,48 +144,48 @@ require "partials/pageHeader.php";
 						<div class="touchRight"></div>
 						<div class="items_container">
 							<div class="item">
-								<img src="assets/slider/img_1.jpg" alt="" />
-								<img class="slider_num" src="assets/slider_nums/01.png" alt="">
+								<img src="assets/slider/img_1.jpg" alt="num 1" />
+								<img class="slider_num" src="assets/slider_nums/01.png" alt="Fruške Residence">
 							</div>
 							<div class="item">
-								<img src="assets/slider/img_2.jpg" alt="" />
-								<img class="slider_num" src="assets/slider_nums/02.png" alt="">
+								<img src="assets/slider/img_2.jpg" alt="num 2" />
+								<img class="slider_num" src="assets/slider_nums/02.png" alt="Fruške Residence">
 							</div>
 							<div class="item">
-								<img src="assets/slider/img_3.jpg" alt="" />
-								<img class="slider_num" src="assets/slider_nums/03.png" alt="">
+								<img src="assets/slider/img_3.jpg" alt="num 3" />
+								<img class="slider_num" src="assets/slider_nums/03.png" alt="Fruške Residence">
 							</div>
 							<div class="item">
-								<img src="assets/slider/img_4.jpg" alt="" />
-								<img class="slider_num" src="assets/slider_nums/04.png" alt="">
+								<img src="assets/slider/img_4.jpg" alt="num 4" />
+								<img class="slider_num" src="assets/slider_nums/04.png" alt="Fruške Residence apartmani">
 							</div>
 							<div class="item">
-								<img src="assets/slider/img_5.jpg" alt="" />
-								<img class="slider_num" src="assets/slider_nums/05.png" alt="">
+								<img src="assets/slider/img_5.jpg" alt="num 5" />
+								<img class="slider_num" src="assets/slider_nums/05.png" alt="Fruške Residence hotel">
 							</div>
 							<div class="item">
-								<img src="assets/slider/img_6.jpg" alt="" />
-								<img class="slider_num" src="assets/slider_nums/06.png" alt="">
+								<img src="assets/slider/img_6.jpg" alt="num 6" />
+								<img class="slider_num" src="assets/slider_nums/06.png" alt="Fruške Residence">
 							</div>
 							<div class="item">
-								<img src="assets/slider/img_7.jpg" alt="" />
-								<img class="slider_num" src="assets/slider_nums/07.png" alt="">
+								<img src="assets/slider/img_7.jpg" alt="num 7" />
+								<img class="slider_num" src="assets/slider_nums/07.png" alt="Fruške Residence">
 							</div>
 							<div class="item">
-								<img src="assets/slider/img_8.jpg" alt="" />
-								<img class="slider_num" src="assets/slider_nums/08.png" alt="">
+								<img src="assets/slider/img_8.jpg" alt="num 8" />
+								<img class="slider_num" src="assets/slider_nums/08.png" alt="Fruške Residence hotel apartmani">
 							</div>
 							<div class="item">
-								<img src="assets/slider/img_9.jpg" alt="" />
-								<img class="slider_num" src="assets/slider_nums/09.png" alt="">
+								<img src="assets/slider/img_9.jpg" alt="num 9" />
+								<img class="slider_num" src="assets/slider_nums/09.png" alt="Fruške Residence">
 							</div>
 							<div class="item">
-								<img src="assets/slider/img_10.jpg" alt="" />
-								<img class="slider_num" src="assets/slider_nums/10.png" alt="">
+								<img src="assets/slider/img_10.jpg" alt="num 10" />
+								<img class="slider_num" src="assets/slider_nums/10.png" alt="Fruške Residence">
 							</div>
 							<div class="item">
-								<img src="assets/slider/img_11.jpg" alt="" />
-								<img class="slider_num" src="assets/slider_nums/11.png" alt="">
+								<img src="assets/slider/img_11.jpg" alt="num 11" />
+								<img class="slider_num" src="assets/slider_nums/11.png" alt="Fruške Residence">
 							</div>
 							
 						</div>

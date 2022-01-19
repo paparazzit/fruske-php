@@ -49,7 +49,7 @@
 								<li><a href="apartmani.html">Apartmani</a></li>
 								<li><a href="nacionalniPark.html">Nacionalni park</a></li>
 								<li><a href="#"   onclick="show_video(event)" 
-							data-src ='https://player.vimeo.com/video/667702731?h=4ea631c1d3&autoplay=1'>Video</a></li>
+							data-src ='https://player.vimeo.com/video/667824551?h=39030031b3&autoplay=1'>Video</a></li>
 								<li><a href="investitor.html">Investitor</a></li>
 								<li><a href="#">Brošura</a></li>
 								<li><a href="kontakt.html">Kontakt</a></li>

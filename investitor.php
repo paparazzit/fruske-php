@@ -5,14 +5,14 @@ require "partials/header.php"
 
 			<section class="pageHeader">
 				<div class="page_logo">
-					<img src="assets/hero_logo.svg" alt="" />
-					<img src="assets/mob_logo_black.svg" alt="" class="logo_mob" />
+					<img src="assets/hero_logo.svg" alt="hero logo" />
+					<img src="assets/mob_logo_black.svg" alt="Main logo" class="logo_mob" />
 				</div>
 				<h2>Investitor</h2>
 			</section>
 			<section class="investHero">
 				<div class="img_wrapper">
-					<img src="assets/ivestitor/investitor_bg.jpg" alt="" />
+					<img src="assets/ivestitor/investitor_bg.jpg" alt="Investitor" />
 				</div>
 			</section>
 
@@ -38,13 +38,13 @@ require "partials/header.php"
 					<div class="info_logos">
 						<div class="logo_wrapper">
 							<div class="img_wrapper">
-								<img src="assets/ivestitor/Promont Group logo.png" alt="" />
+								<img src="assets/ivestitor/Promont Group logo.png" alt="Promont Group" />
 							</div>
 						</div>
 
 						<div class="logo_wrapper">
 							<div class="img_wrapper">
-								<img src="assets/ivestitor/terme_logo.png" alt="" />
+								<img src="assets/ivestitor/terme_logo.png" alt="Fruske Terme" />
 							</div>
 						</div>
 						<div class="text_wrapper">

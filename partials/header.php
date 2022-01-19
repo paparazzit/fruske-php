@@ -1,26 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sh">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="Description" content="Fruske residence su najbolje i najace i jako su lepe" lang="sr" xml:lang="sr" />
-		<meta property="og:title" content="Fruske" />
-		<meta property="og:site_name" content="Fruske" />
-		<meta property="og:description" content="Fruske residence su najbolje i najace i jako su lepe" />
+		<meta name="Description" content="Fruške Residence je integrisani rezidencijalni kompleks koji Vam pruža život ispunjen zelenilom" lang="sr" xml:lang="sr" />
+		<meta property="og:title" content="Fruške Residence" />
+		<meta property="og:site_name" content="Fruške Residence" />
+		<meta property="og:description" content="Fruške Residence je integrisani rezidencijalni kompleks koji Vam pruža život ispunjen zelenilom" />
 		<meta
 			property="og:image"
-			content="assets/hero_img-min.png"
+			content="assets/share_img_1.jpg"
 		/>
+		<meta name ="description" content="Fruške Residence je integrisani rezidencijalni kompleks koji Vam pruža život ispunjen zelenilom">
+		<meta name="keywords" content = "Fruške Residence, apartamni, Fruska Gora, Planina, Vrdnik, Kondo naselje Fruške Residence, Fruška gora, Srbija, Serbia, Fruška gora, Nacionalni park, Apartmani, 
+			Resort, Kondo naselje Fruške Residence, Vrdnička kula, integrisani rezidencijalni, Premium lokacija ">
 		<meta property="og:url" content="http://www.fruske.srdajnsrdajnov.info/" />
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:site" content="fruske.rs" />
 		<meta name="twitter:url" content="http://www.fruske.srdajnsrdajnov.info/" />
-		<meta name="twitter:title" content="Fruske" />
-		<meta name="twitter:description" content="Fruske" />
-
-
+		<meta name="twitter:title" content="Fruške Residence" />
+		<meta name="twitter:description" content="Fruške Residence" />
+		<meta name="author" content=" Aspect Communications">
+		<meta
+			name="twitter:image"
+			content="assets/share_img_1.jpg"
+		/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		
 		<link rel="stylesheet" href="css/style.css" />
@@ -39,7 +45,7 @@
 				<nav class="nav_bar">
 					<div class="drop_wrapper">
 						<div class="mob_logo">
-							<img src="assets/mob_logo.svg" alt="">
+							<img src="assets/mob_logo.svg" alt="logo">
 						</div>
 						<div class="drop_down">
 							<a class="link <?php if($pageTitle==='index'){echo"active_nav";}?>" href="index.php">početna</a>
@@ -52,7 +58,7 @@
 						</div>
 						<div class="sideNav">
 							<div class="icons">
-								<div class="nav-item">
+								<!-- <div class="nav-item">
 									<div class="nav_img">
 										<svg
 											viewBox="0 0 20 20"
@@ -69,7 +75,7 @@
 									</div>
 									<a href="#" class="slide-link"  onclick="show_video(event)" 
 							data-src ='https://player.vimeo.com/video/667702731?h=4ea631c1d3&autoplay=1'>Video</a>
-								</div>
+								</div> -->
 								<div class="nav-item">
 									<div class="nav_img">
 										<svg
