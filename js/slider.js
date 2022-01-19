@@ -58,42 +58,61 @@ function Slider(slider) {
 	this.right.addEventListener(
 		"touchmove",
 		(e) => {
-			console.log(e.touches[0].clientY);
-			window.scrollBy(e.touches[0].clientY);
+			// console.log(e.touches[0].clientY);
+			// console.log(e.touches[0].clientY);
+			// window.scrollBy(e.touches[0].clientY);
 		},
 		false
 	);
 	this.right.addEventListener("touchstart", (e) => {
 		this.touchDirection(e, "start");
 	});
+	let = timeOut = 0;
+	let = lastTap = 0;
+
 	this.right.addEventListener("touchend", (e) => {
 		this.touchDirection(e, "end");
+		let currentTime = new Date().getTime();
+		let tapLenght = currentTime - lastTap;
+
+		if (tapLenght < 500 && tapLenght > 0) {
+			let curImg = this.items[this.slideIndex].children[0];
+
+			this.img_modal.classList.add("show_img_modal");
+			this.createImg_mod(curImg.getAttribute("src"));
+		} else {
+			timeout = setTimeout(function () {
+				clearTimeout(timeout);
+			}, 500);
+		}
+		lastTap = currentTime;
 	});
+
 	let touchStartPos = 0;
 	let touchEndPos = 0;
 	let touchS = 0;
 	let touchEnd = 0;
 	let touchStartY = 0;
 	let touchEndY = 0;
+
 	this.touchDirection = function (e, message) {
 		if (e.type === "touchend") {
 			touchEnd = e.timeStamp;
 			touchEndPos = e.changedTouches[0].screenX;
 			touchEndY = e.changedTouches[0].screenY;
 			// console.log(message, touchEndPos);
-			console.log("end", e.changedTouches[0]);
+			// console.log("end", e.changedTouches[0]);
 		}
 		if (e.type === "touchstart") {
 			touchS = e.timeStamp;
 			touchStartPos = e.changedTouches[0].screenX;
 			touchStartY = e.changedTouches[0].screenY;
 			// console.log(message, touchStartPos);
-			console.log("start", e.changedTouches[0]);
+			// console.log("start", e.changedTouches[0]);
 		}
 
-		// console.log("Y", touchEndY + touchStartPos);
-		// console.log("X", touchEnd + touchS);
-		if (touchEnd - touchS > 50) {
+		if (touchEnd - touchS > 150) {
+			// console.log(touchEnd - touchS);
 			// console.log(message, c);
 			// console.log(touchS, " : ", touchEnd);
 			if (touchStartPos > touchEndPos) {
@@ -125,25 +144,37 @@ function Slider(slider) {
 	this.show_img = function () {
 		this.items.forEach((item, idx) => {
 			item.addEventListener("click", (e) => {
-				this.img_modal.classList.add("show_img_modal");
 				let currentImg = item.children[0].getAttribute("src");
-				let img = document.createElement("img");
+				// console.log(currentImg);
 
-				img.setAttribute("src", currentImg);
+				this.createImg_mod(currentImg);
+				// let img = document.createElement("img");
+				// img.setAttribute("src", currentImg);
 				// this.modal_img_wrapper.appendChild(img);
-				setTimeout((e) => {
-					this.modal_img_wrapper.appendChild(img);
-				}, 390);
+				// setTimeout((e) => {
+				// 	this.modal_img_wrapper.appendChild(img);
+				// }, 390);
 			});
 		});
 	};
-	this.close_modal.addEventListener("click", () => {
-		// this.img_modal.classList.remove("show_img_modal");
-		// let img = this.modal_img_wrapper.children[0];
-		// this.modal_img_wrapper.removeChild(img);
-		// console.log(img);
-		this.close_f();
-	});
+	this.createImg_mod = function (myImg) {
+		this.img_modal.classList.add("show_img_modal");
+		console.log(myImg);
+		let img = document.createElement("img");
+		img.setAttribute("src", myImg);
+		this.modal_img_wrapper.appendChild(img);
+
+		setTimeout((e) => {
+			this.modal_img_wrapper.appendChild(img);
+		}, 390);
+	};
+	// this.close_modal.addEventListener("click", () => {
+	// 	this.img_modal.classList.remove("show_img_modal");
+	// 	let img = this.modal_img_wrapper.children[0];
+	// 	this.modal_img_wrapper.removeChild(img);
+	// 	// console.log(img);
+	// 	this.close_f();
+	// });
 	this.img_modal.addEventListener("click", () => {
 		this.close_f();
 	});
@@ -151,7 +182,6 @@ function Slider(slider) {
 		this.img_modal.classList.remove("show_img_modal");
 		let img = this.modal_img_wrapper.children[0];
 		this.modal_img_wrapper.removeChild(img);
-		console.log(img);
 	};
 	this.setCounts = function () {
 		this.curentItem = "0" + (this.index + 1);

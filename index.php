@@ -142,7 +142,7 @@
 						</hgroup>
 						<div class="headline-img " >
 							<img src="assets/hero_img-min.png" alt="Premium kondo naselje" />
-							<div class="play-btn-big " onclick="show_video(event)" data-src = "https://www.youtube.com/embed/Njg7RhiDCp8">
+							<div class="play-btn-big " onclick="show_video(event)" data-src ='https://player.vimeo.com/video/667824551?h=39030031b3&autoplay=1'>
 								<svg
 									width="133"
 									height="135"
