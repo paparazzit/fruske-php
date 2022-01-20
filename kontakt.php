@@ -70,7 +70,7 @@ require "partials/header.php";
 
 			
 
-			<!-- FOOTER -->
+			
 			<?php 
 
 require "partials/footer.php"
