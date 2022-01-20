@@ -402,3 +402,5 @@ function showOverylay(current_pano) {
 	current_pano.classList.remove("hide_overlay");
 	current_pano.removeAttribute("data-show");
 }
+
+// PROBA FORME

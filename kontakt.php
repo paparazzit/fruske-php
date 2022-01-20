@@ -39,19 +39,22 @@ require "partials/header.php";
 
 								<div class="name">
 									<label for="name">Ime i prezime</label>
-									<input type="text" name="name" required />
+									<input type="text" name="name"  />
 								</div>
 								<div class="email">
 									<label for="email">email</label>
-									<input type="email" name="email" required />
+									<input type="email" name="email"  />
 								</div>
+								
+									<input type="text" name="phone" hidden  />
+								
 								<div class="message">
 									<label for="message">Poruka</label>
 									<textarea name="message" id="" cols="30" rows="10"></textarea>
 								</div>
 								<div class="bottom">
 									<!-- div report menja klase: sent (daje success), fail (daje fail), sending (daje loader) -->
-									<div class="report sending"> 
+									<div class="report"> 
 										<div class="msg_loader">
 											<p>Slanje<span>.</span><span>.</span><span>.</span><span>.</span><span>.</span></p>
 										</div>

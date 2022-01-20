@@ -138,19 +138,23 @@ section.contact_header {
 							display: flex;
 							align-items: center;
 							justify-content: flex-end;
+
 							.report {
 								flex: 1;
 								align-self: stretch;
-								display: flex;
 								align-items: center;
 								justify-content: center;
 								border-radius: 3px;
+								display: none;
 
 								&.sent {
+									max-height: 36px;
+									display: flex;
 									background-color: $accents_green_lgt;
 									color: $white;
 									font-size: 1rem;
 									font-weight: 600;
+
 									#fail {
 										display: none;
 									}
@@ -159,10 +163,13 @@ section.contact_header {
 									}
 								}
 								&.fail {
+									max-height: 36px;
+									display: flex;
 									background-color: rgba(255, 0, 0, 0.61);
 									color: $white;
 									font-size: 1rem;
 									font-weight: 600;
+
 									#success {
 										display: none;
 									}
@@ -171,7 +178,14 @@ section.contact_header {
 									}
 								}
 								&.sending {
+									display: flex;
 									font-size: 1.3rem;
+									#success {
+										display: none;
+									}
+									#fail {
+										display: none;
+									}
 									.msg_loader {
 										span {
 											opacity: 0;
@@ -192,10 +206,6 @@ section.contact_header {
 										span:nth-child(5) {
 											animation-delay: 1s;
 										}
-									}
-									#success,
-									#fail {
-										display: none;
 									}
 								}
 							}
@@ -259,6 +269,8 @@ section.contact_header {
 				.contact_right {
 					flex: 0 0 60%;
 					width: 60%;
+					form {
+					}
 				}
 			}
 		}
@@ -337,20 +349,12 @@ section.contact_header {
 
 							flex-wrap: wrap;
 							justify-content: center;
-							.confirm {
-								input {
-									display: none;
-								}
-								input:checked + label {
-									transition: 0.2s all ease;
-									-o-transition: 0.2s all ease;
-									-webkit-transition: 0.2s all ease;
-									-moz-transition: 0.2s all ease;
-									color: $accents_green;
-									font-weight: bold;
-								}
+
+							.btn {
+								order: 1;
 							}
-							button {
+							.report {
+								order: 2;
 								margin-top: 20px;
 							}
 						}

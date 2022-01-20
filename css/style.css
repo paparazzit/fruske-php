@@ -1190,11 +1190,13 @@ section.contact_header {
               section.contact_header .header_bottom .container .contact_right form > div.bottom .report {
                 flex: 1;
                 align-self: stretch;
-                display: flex;
                 align-items: center;
                 justify-content: center;
-                border-radius: 3px; }
+                border-radius: 3px;
+                display: none; }
                 section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sent {
+                  max-height: 36px;
+                  display: flex;
                   background-color: #99c2a5;
                   color: #fff;
                   font-size: 1rem;
@@ -1204,6 +1206,8 @@ section.contact_header {
                   section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sent .msg_loader {
                     display: none; }
                 section.contact_header .header_bottom .container .contact_right form > div.bottom .report.fail {
+                  max-height: 36px;
+                  display: flex;
                   background-color: rgba(255, 0, 0, 0.61);
                   color: #fff;
                   font-size: 1rem;
@@ -1213,7 +1217,12 @@ section.contact_header {
                   section.contact_header .header_bottom .container .contact_right form > div.bottom .report.fail .msg_loader {
                     display: none; }
                 section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sending {
+                  display: flex;
                   font-size: 1.3rem; }
+                  section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sending #success {
+                    display: none; }
+                  section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sending #fail {
+                    display: none; }
                   section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sending .msg_loader span {
                     opacity: 0;
                     animation: loader_msg 2s backwards infinite linear; }
@@ -1227,9 +1236,6 @@ section.contact_header {
                     animation-delay: 0.75s; }
                   section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sending .msg_loader span:nth-child(5) {
                     animation-delay: 1s; }
-                  section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sending #success,
-                  section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sending #fail {
-                    display: none; }
               section.contact_header .header_bottom .container .contact_right form > div.bottom > * {
                 margin-left: 30px; }
               section.contact_header .header_bottom .container .contact_right form > div.bottom .btn {
@@ -1310,16 +1316,10 @@ section.contact_header {
       margin-left: auto;
       flex-wrap: wrap;
       justify-content: center; }
-      section.contact_header .header_bottom .container .contact_right form .bottom .confirm input {
-        display: none; }
-      section.contact_header .header_bottom .container .contact_right form .bottom .confirm input:checked + label {
-        transition: 0.2s all ease;
-        -o-transition: 0.2s all ease;
-        -webkit-transition: 0.2s all ease;
-        -moz-transition: 0.2s all ease;
-        color: #0c5c34;
-        font-weight: bold; }
-      section.contact_header .header_bottom .container .contact_right form .bottom button {
+      section.contact_header .header_bottom .container .contact_right form .bottom .btn {
+        order: 1; }
+      section.contact_header .header_bottom .container .contact_right form .bottom .report {
+        order: 2;
         margin-top: 20px; } }
   @media (max-width: 450px) {
     section.contact_header .header_top .header_logo {
