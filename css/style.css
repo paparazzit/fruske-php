@@ -1170,6 +1170,10 @@ section.contact_header {
               background-color: #c4c4c4;
               margin-bottom: 30px;
               margin-top: 20px; }
+          section.contact_header .header_bottom .container .contact_right form .phone {
+            visibility: hidden;
+            max-height: 0;
+            margin: 0; }
           section.contact_header .header_bottom .container .contact_right form > div {
             margin-bottom: 10px;
             display: flex;
@@ -1195,7 +1199,7 @@ section.contact_header {
                 border-radius: 3px;
                 display: none; }
                 section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sent {
-                  max-height: 36px;
+                  max-height: 42px;
                   display: flex;
                   background-color: #99c2a5;
                   color: #fff;
@@ -1206,7 +1210,7 @@ section.contact_header {
                   section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sent .msg_loader {
                     display: none; }
                 section.contact_header .header_bottom .container .contact_right form > div.bottom .report.fail {
-                  max-height: 36px;
+                  max-height: 42px;
                   display: flex;
                   background-color: rgba(255, 0, 0, 0.61);
                   color: #fff;
@@ -1223,19 +1227,21 @@ section.contact_header {
                     display: none; }
                   section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sending #fail {
                     display: none; }
-                  section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sending .msg_loader span {
-                    opacity: 0;
-                    animation: loader_msg 2s backwards infinite linear; }
-                  section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sending .msg_loader span:nth-child(1) {
-                    animation-delay: 0s; }
-                  section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sending .msg_loader span:nth-child(2) {
-                    animation-delay: 0.25s; }
-                  section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sending .msg_loader span:nth-child(3) {
-                    animation-delay: 0.5s; }
-                  section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sending .msg_loader span:nth-child(4) {
-                    animation-delay: 0.75s; }
-                  section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sending .msg_loader span:nth-child(5) {
-                    animation-delay: 1s; }
+                  section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sending .msg_loader {
+                    max-height: 42px; }
+                    section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sending .msg_loader span {
+                      opacity: 0;
+                      animation: loader_msg 2s backwards infinite linear; }
+                    section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sending .msg_loader span:nth-child(1) {
+                      animation-delay: 0s; }
+                    section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sending .msg_loader span:nth-child(2) {
+                      animation-delay: 0.25s; }
+                    section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sending .msg_loader span:nth-child(3) {
+                      animation-delay: 0.5s; }
+                    section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sending .msg_loader span:nth-child(4) {
+                      animation-delay: 0.75s; }
+                    section.contact_header .header_bottom .container .contact_right form > div.bottom .report.sending .msg_loader span:nth-child(5) {
+                      animation-delay: 1s; }
               section.contact_header .header_bottom .container .contact_right form > div.bottom > * {
                 margin-left: 30px; }
               section.contact_header .header_bottom .container .contact_right form > div.bottom .btn {

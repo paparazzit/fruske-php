@@ -118,6 +118,11 @@ section.contact_header {
 							margin-top: 20px;
 						}
 					}
+					.phone {
+						visibility: hidden;
+						max-height: 0;
+						margin: 0;
+					}
 					& > div {
 						margin-bottom: 10px;
 						display: flex;
@@ -148,7 +153,7 @@ section.contact_header {
 								display: none;
 
 								&.sent {
-									max-height: 36px;
+									max-height: 42px;
 									display: flex;
 									background-color: $accents_green_lgt;
 									color: $white;
@@ -163,7 +168,7 @@ section.contact_header {
 									}
 								}
 								&.fail {
-									max-height: 36px;
+									max-height: 42px;
 									display: flex;
 									background-color: rgba(255, 0, 0, 0.61);
 									color: $white;
@@ -180,6 +185,7 @@ section.contact_header {
 								&.sending {
 									display: flex;
 									font-size: 1.3rem;
+
 									#success {
 										display: none;
 									}
@@ -187,6 +193,7 @@ section.contact_header {
 										display: none;
 									}
 									.msg_loader {
+										max-height: 42px;
 										span {
 											opacity: 0;
 											animation: loader_msg 2s backwards infinite linear;

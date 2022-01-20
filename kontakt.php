@@ -45,8 +45,11 @@ require "partials/header.php";
 									<label for="email">email</label>
 									<input type="email" name="email"  />
 								</div>
-								
-									<input type="text" name="phone" hidden  />
+								<div class="phone">
+									<label for="phone">phone</label>
+									<input type="text" name="phone"  />
+								</div>
+									
 								
 								<div class="message">
 									<label for="message">Poruka</label>
@@ -54,7 +57,7 @@ require "partials/header.php";
 								</div>
 								<div class="bottom">
 									<!-- div report menja klase: sent (daje success), fail (daje fail), sending (daje loader) -->
-									<div class="report"> 
+									<div class="report fail"> 
 										<div class="msg_loader">
 											<p>Slanje<span>.</span><span>.</span><span>.</span><span>.</span><span>.</span></p>
 										</div>
