@@ -1187,6 +1187,9 @@ section.contact_header {
               border-radius: 3px;
               border: 1px solid #b7b7b7;
               padding: 5px 5px; }
+              section.contact_header .header_bottom .container .contact_right form > div input.alert,
+              section.contact_header .header_bottom .container .contact_right form > div textarea.alert {
+                border: 1px solid red; }
             section.contact_header .header_bottom .container .contact_right form > div.bottom {
               display: flex;
               align-items: center;

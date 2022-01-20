@@ -404,3 +404,31 @@ function showOverylay(current_pano) {
 }
 
 // PROBA FORME
+
+// FORM VALIDATOR
+
+function validate_form(event) {
+	event.preventDefault();
+	let name = document.querySelector('input[name="name"]');
+	let email = document.querySelector('input[name="email"]');
+	let msg = document.querySelector("textarea[name='message']");
+
+	name.classList.remove("alert");
+	email.classList.remove("alert");
+	msg.classList.remove("alert");
+	if (!name.value) {
+		form_alerts(name);
+	}
+
+	if (!email.value) {
+		form_alerts(email);
+	}
+	if (!msg.value) {
+		form_alerts(msg);
+	}
+}
+
+function form_alerts(el) {
+	console.log(el);
+	el.classList.add("alert");
+}

@@ -65,7 +65,7 @@ require "partials/header.php";
 										<div class="msg_report " id="fail">Poruka nije poslata</div>
 									</div>
 									
-									<button type="submit" class="btn green">Pošalji</button>
+									<button type="submit" class="btn green" onclick="validate_form(event);">Pošalji</button>
 								</div>
 							</form>
 						</div>
