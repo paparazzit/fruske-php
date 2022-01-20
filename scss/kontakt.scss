@@ -134,9 +134,71 @@ section.contact_header {
 							padding: 5px 5px;
 						}
 						&.bottom {
+							// border: 1px solid red;
 							display: flex;
 							align-items: center;
 							justify-content: flex-end;
+							.report {
+								flex: 1;
+								align-self: stretch;
+								display: flex;
+								align-items: center;
+								justify-content: center;
+								border-radius: 3px;
+
+								&.sent {
+									background-color: $accents_green_lgt;
+									color: $white;
+									font-size: 1rem;
+									font-weight: 600;
+									#fail {
+										display: none;
+									}
+									.msg_loader {
+										display: none;
+									}
+								}
+								&.fail {
+									background-color: rgba(255, 0, 0, 0.61);
+									color: $white;
+									font-size: 1rem;
+									font-weight: 600;
+									#success {
+										display: none;
+									}
+									.msg_loader {
+										display: none;
+									}
+								}
+								&.sending {
+									font-size: 1.3rem;
+									.msg_loader {
+										span {
+											opacity: 0;
+											animation: loader_msg 2s backwards infinite linear;
+										}
+										span:nth-child(1) {
+											animation-delay: 0s;
+										}
+										span:nth-child(2) {
+											animation-delay: 0.25s;
+										}
+										span:nth-child(3) {
+											animation-delay: 0.5s;
+										}
+										span:nth-child(4) {
+											animation-delay: 0.75s;
+										}
+										span:nth-child(5) {
+											animation-delay: 1s;
+										}
+									}
+									#success,
+									#fail {
+										display: none;
+									}
+								}
+							}
 							& > * {
 								margin-left: 30px;
 							}

@@ -50,13 +50,15 @@ require "partials/header.php";
 									<textarea name="message" id="" cols="30" rows="10"></textarea>
 								</div>
 								<div class="bottom">
-									<div class="confirm">
-										<input type="checkbox" name="checkbox" id="checkbox" />
-										<label for="checkbox">Nisam Robot</label>
+									<!-- div report menja klase: sent (daje success), fail (daje fail), sending (daje loader) -->
+									<div class="report sending"> 
+										<div class="msg_loader">
+											<p>Slanje<span>.</span><span>.</span><span>.</span><span>.</span><span>.</span></p>
+										</div>
+										<div class="msg_report " id="success">Poruka je poslata</div>
+										<div class="msg_report " id="fail">Poruka nije poslata</div>
 									</div>
-									<div class="capta">
-										<img src="assets/capta.png" alt="" />
-									</div>
+									
 									<button type="submit" class="btn green">Pošalji</button>
 								</div>
 							</form>
