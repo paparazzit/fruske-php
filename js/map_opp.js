@@ -18,8 +18,8 @@ function Map_points(map_container, list_cont, map_section) {
 			hdl: `Istorijski spomenik
 			Vrdnička kula`,
 
-			text: `<p>Vrdnička kula predstavlja neprocinjivi spomenik kulture, za koji se veruje da datira 
-			još od doba Rimljana. Smeštena je nedaleko od starog naselja Vrdnik.</p>
+			text: `<p>Vrdnička kula predstavlja neprocenjivi spomenik kulture, za koji se veruje da datira još od doba Rimljana. Smeštena je nedaleko od starog naselja Vrdnik.
+			</p>
 			<p>Sa vrha visoke kule, smeštene na bregu, pruža se neverovatan pogled na šumovite obronke najstarijeg Nacionalnog parka u Srbiji.</p>`,
 			img: "assets/map/card_3.jpg",
 		},
@@ -52,26 +52,19 @@ function Map_points(map_container, list_cont, map_section) {
 		{
 			hdl: "Hotel Premier Aqua",
 			hdl2: "Premium zgrada sa apartmanima",
-			text: `<p>TEXT 2 se sastoji od 140 apartmana, za 
-			ličnu upotrebu ili za izdavanje – izbor je isključivo Vaš!</p> 
-			<p>KONDO MONDOnude udobnost i potpuni komfor za 
-			svakodnevni život, ali na drugačiji način od života u gradu.</p>`,
+			text: `<p>Hotel Premier Aqua 5* izgrađen je 2012. godine kao prvi hotel sa 5 zvezdica u Banji Vrdnik kao i prvi Adults-Only hotel u Srbiji.</p>`,
 			img: "assets/map/card_5.jpg",
 		},
 		{
 			hdl: `Sportski tereni`,
 
-			text: `<p>Godine 2014. nadomak hotela otvaraju se sportski tereni Premier. Tri teniska terena i 
-			jedan multifunkcionialni predstavljaju sportsko-rekreativni dopunski sadržaj za sve goste 
-			prvog hotelsko-turističkog kompleksa Promont Hotelijerstva, hotela Premier Aqua.</p>`,
+			text: `<p>Godine 2014. nadomak hotela otvaraju se sportski tereni Premier. Tri teniska i jedan multifunkcionialni teren predstavljaju sportsko-rekreativni dopunski sadržaj za sve goste prvog hotelsko-turističkog kompleksa Promont Hotelijerstva, hotela Premier Aqua.</p>`,
 			img: "assets/map/card_1.jpg",
 		},
 		{
 			hdl: `Staza zdravlja`,
 
-			text: `<p>Staza zdravlja dužine je 1,96km, povezuje Banju Vrdnik sa 
-			Vrdnickom kulom i kao takva predstavlja idealnu rutu za ljubitelje
-			 rekreativnih aktivnosti u prirodi.</p>`,
+			text: `<p>Staza zdravlja dužine 1,96km, povezuje Banju Vrdnik sa Vrdničkom kulom i kao takva predstavlja idealnu rutu za ljubitelje rekreativnih aktivnosti u prirodi.</p>`,
 			img: "assets/map/card_8.jpg",
 		},
 	];

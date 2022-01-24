@@ -134,6 +134,7 @@
 								gore. Fruške Residence je integrisani rezidencijalni kompleks koji
 								Vam pruža život ispunjen zelenilom, daleko od zagađene okoline
 								urbanih sredina. Sada je pravo vreme za mir, tišinu i čist vazduh.
+								<br>
 								Fruške Residence - za bolje sutra.
 							</p>
 							<a href="#" class="btn white mt-2"
@@ -182,8 +183,7 @@
 							<h2>Premium lokacija</h2>
 	
 							<p>
-								Na samo 103 km od Beograda i 40 km od Novog Sada, Fruške Residence
-								predstavljaju idealnu lokaciju za svakodnevni život na planini.
+								Na samo 78 km od Beograda i 40 km od Novog Sada, Fruške Residence predstavljaju idealnu lokaciju za svakodnevni život na planini.
 							</p>
 							<ol>
 								<li class="location" data-point="1"><span>1.</span> Fruške Residence</li>
@@ -467,7 +467,10 @@
 						<img class="fruska_logo" src="assets/fruskaGora/logo.png" alt="Logo">
 						<h3>Nacionalni park</h3>
 							<h2>Fruška gora</h2>
-							<p>Planina Fruška gora, proglašena je Nacionalnim parkom 1960. godine, zahvaljujući bujnom vegetacijom i velikim brojem naseljenih životinjskih vrsta, kao i bogatim kulturnim, istorijskim i arheološkim nasleđem.</p>
+							<p>Planina Fruška gora, proglašena je Nacionalnim parkom 1960.
+							godine, zahvaljujući bujnoj vegetaciji i velikom broju naseljenih
+							životinjskih vrsta, kao i bogatom kulturnom, istorijskom i
+							arheološkom nasleđu.</p>
 							<a href="nacionalniPark.php" class="btn white mt-2">Saznaj više <img src="assets/thin_big_right.png" alt="arrow"
 								/></a>
 					</article>

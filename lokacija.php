@@ -195,10 +195,9 @@ require 'partials/pageHeader.php';
 				<div class="right">
 					<div class="card_right">
 						<p>
-							Kondo naselje Fruške Residence okruženo je brojnim prirodnim,
-							turističkim i kulturnim atrakcijama. Izgradite nove i zdrave
-							životne navike, jer Fruška gora predstavlja nepresušni izvor
-							prirode, reakcije i zdravih životnih navika.
+						Kondo naselje Fruške Residence okruženo je brojnim prirodnim i turističkim atrakcijama i kulturnim i
+rekreativnim sadržajima. Iskoristite sve prednosti koje nudi naša lokacija i izgradite nove i zdravije navike
+u zdravom i opuštajućem životnom ambijentu.
 						</p>
 					</div>
 				</div>

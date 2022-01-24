@@ -18,10 +18,9 @@ require "partials/pageHeader.php";
 					<h2>Fruška gora</h2>
 
 					<p>
-						Planina Fruška gora, proglašena je Nacionalnim parkom 1960. godine,
-						zahvaljujući bujnom vegetacijom i velikim brojem naseljenih
-						životinjskih vrsta, kao i bogatim kulturnim, istorijskim i
-						arheološkim nasleđem.
+					Planina Fruška gora, proglašena je Nacionalnim parkom 1960. godine,
+					zahvaljujući bujnoj vegetaciji i velikom broju naseljenih životinjskih vrsta,
+					kao i bogatom kulturnom, istorijskom i arheološkom nasleđu.
 					</p>
 
 					<p>
@@ -31,7 +30,7 @@ require "partials/pageHeader.php";
 					<p>
 						Istraživanja su pokazala da ova planina predstavlja riznicu zapisa o
 						planeti Zemlji. Na osnovu njih rekonstruisan je tok prirodnih
-						promena na ovom prostoru od pre oko 500 miliona godina.
+						promena na ovom prostoru tokom poslednjih 500 miliona godina..
 					</p>
 				</div>
 			</section>
@@ -41,7 +40,7 @@ require "partials/pageHeader.php";
 				<div class="text_wrapper">
 					<p>
 						Nacionalni park obuhvata površinu od 27.762 ha, na kojoj se nalazi
-						više od <span>1.500 vrsta</span> biljaka, a najzastupljenije drveće
+						više od <span>1.500 vrsta</span> biljaka su, a najzastupljenije drveće
 						je kitnjak, bukva i lipa.
 					</p>
 					<p>
@@ -57,7 +56,7 @@ require "partials/pageHeader.php";
 					<p>
 						Od početka srednjeg veka, mnogi narodi su za sobom ostavili tragove
 						svojih civilizacija. Sačuvan je veliki broj spomenika kako sakralne,
-						tako i vojne i civilne arhitekture i oni se nalaze u naseljinoj i
+						tako i vojne i civilne arhitekture i oni se nalaze u naseljenoj i
 						vannaseljskoj teritoriji, na čitavom području Fruške gore.
 					</p>
 					<p class="accs">
@@ -81,24 +80,16 @@ require "partials/pageHeader.php";
 								<img src="assets/nacionalni_park/park_icon_1.png" alt="manastiri" />
 								<h2>Manastiri</h2>
 							</hgroup>
-							<p>
-								Posebnu vrednost i biser Fruške gore predstavlja
-								<span>20 pravoslavnih manastiras</span>, poznatih po specifičnoj
-								arhitekturi, bogatim riznicama, bibliotekama i freskama.
-								Obilaskom ove planine možete posetiti sledeće manastire: Sveta
-								Petka-Berkasovo, Privina Glava, Divša, Kuveždin, Petkovica,
-								Šišatovac, Svetih Arhangela, Vranjaš, Bešenovo, Beočin, Mala
-								Remeta, Jazak, Rakovac, Vrdnik, Staro Hopovo, Novo Hopovo,
-								Grgeteg, Velika Remeta, Krušedol i Vavedenja Presvete
-								Bogorodice.
-							</p>
-							<p>
-								Kada posetite Frušku goru, neophodno je da obiđete i sledeće
-								znamenitosti: Zmajevac, Brankovac, najviši vrh
-								<span>Crveni Čot</span>, Stražilovo, Letenka, Vrdnička kula,
-								stene Orlovac, Kraljeve stolice, Crni čot, pećina Beli Majdan,
-								tvrđava Gradac, Perine pećine, Grgurevačka pećina i dr.
-							</p>
+							<p>Posebnu vrednost i biser Fruške gore predstavlja <span>20 pravoslavnih manastira</span>, poznatih
+								po specifičnoj arhitekturi, bogatim riznicama, bibliotekama i freskama. Obilaskom ove
+								planine možete posetiti sledeće manastire: Svetu Petku-Berkasovo, Privinu Glavu,
+								Đipšu, Kuveždin, Petkovicu, Šišatovac, Svete Arhangele, Vranjaš, Bešenovo, Beočin,
+								Malu Remetu, Jazak, Rakovac, Vrdnik, Staro Hopovo, Novo Hopovo, Grgeteg, Veliku
+								Remetu, Krušedol i Manastir Vavedenja Presvete Bogorodice.</p>
+								<p>Kada posetite Frušku goru, neophodno je da obiđete i sledeće znamenitosti: Zmajevac,
+								Brankovac, najviši vrh <span>Crveni Čot</span>, Stražilovo, Letenku, Vrdničku kulu, stene Orlovac,
+								Kraljeve stolice, Crni čot, pećinu Beli Majdan, tvrđavu Gradac, Perine pećine,
+								Grgurevačku pećinu i dr.</p>
 						</article>
 						<article class="act_article">
 							<div class="act_text">
@@ -143,7 +134,7 @@ require "partials/pageHeader.php";
 							</p>
 							<p>
 								Veliki broj prirodnih resursa, predivnih pejzaža, šarm i lepota
-								ove planine, Frušku goru čini idealnim mestom za odmor i
+								ove planine, Frušku goru čine idealnim mestom za odmor i
 								rekreaciju, koje će vas približiti prirodi.
 							</p>
 						</article>

@@ -118,13 +118,24 @@ section.option_icons {
 	}
 	.container {
 		display: flex;
-		align-items: center;
+		align-items: flex-start;
 		justify-content: space-between;
 		.icons_wrapper {
 			display: flex;
 			align-items: center;
 			justify-content: center;
 			flex-direction: column;
+			.icon {
+				height: 65px;
+				width: 89px;
+				display: flex;
+				align-items: flex-end;
+				justify-content: center;
+
+				img {
+					display: block;
+				}
+			}
 			.icon_text {
 				text-align: center;
 				margin-top: 20px;

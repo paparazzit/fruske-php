@@ -935,13 +935,21 @@ section.option_icons {
     font-size: 3rem; }
   section.option_icons .container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between; }
     section.option_icons .container .icons_wrapper {
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column; }
+      section.option_icons .container .icons_wrapper .icon {
+        height: 65px;
+        width: 89px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center; }
+        section.option_icons .container .icons_wrapper .icon img {
+          display: block; }
       section.option_icons .container .icons_wrapper .icon_text {
         text-align: center;
         margin-top: 20px;
@@ -1035,10 +1043,11 @@ section.investInfo {
           width: 80%;
           display: block; }
     section.investInfo .info_logos .text_wrapper {
-      padding: 40px;
+      padding: 40px 0;
       text-align: center;
-      flex: 0 0 50%;
-      width: 50%; }
+      flex: 0 0 60%;
+      width: 60%;
+      line-height: 2; }
       section.investInfo .info_logos .text_wrapper ul {
         list-style-type: "- ";
         list-style-position: outside;

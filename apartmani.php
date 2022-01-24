@@ -96,14 +96,14 @@ require "partials/pageHeader.php";
 
 							<p>- Korišćenje moderne <span class="bold">teretane</span> opremljenje Techno Gym opremom, u sklopu Hotela Fruške Terme</p>
 							<p>- Korišćenje <span class="bold">zatvorene igraonice za decu</span>, u sklopu Hotela Fruške Terme</p>
-							<p>- <span class="bold">Igralište za decu na otvorenom</span> prilagonjeno deci svih uzrasta, sa pristupom ograničenim samo za vlasnike apartmana kondo naselja Fruške Residence</p>
+							<p>- <span class="bold">Igralište za decu na otvorenom</span> prilagođeno deci svih uzrasta, sa pristupom ograničenim samo za vlasnike apartmana kondo naselja Fruške Residence</p>
 							<p>- Na raspolaganju <span class="bold">Concierge služba</span> Hotela Fruške Terme (organizacija izleta i aktivnosti; rezervacija restorana; rezervacija termina za masažu; transfera do vinarija, manastira, itd.)</p>
-							<p>- <span class="bold">Recepcija sa portirom 24/7</span>, obezbedjenje kompleksa i kontrola pristupa</p>
+							<p>- <span class="bold">Recepcija sa portirom 24/7</span>, obezbeđenje kompleksa i kontrola pristupa</p>
 							
 						</div>
 						<div class="right">
 							<p>- U sastavu kompleksa se će se nalaziti brendirani restoran, supermarket, apoteka kao i drugi komplementarni sadržaji</p>
-							<p>- Usluga višestruko nagradjivane <span class="bold">ordinacije za fizikalnu medicinu i rehabilitaciju “Aqua Medica”</span> u sklopu Hotela Premeir Aqua</p>
+							<p>- Usluga višestruko nagrađivane <span class="bold">ordinacije za fizikalnu medicinu i rehabilitaciju “Aqua Medica”</span> u sklopu Hotela Premeir Aqua</p>
 							<p>- <span class="bold">Održavanje objekta</span> (Zimska služba-obezbeđena mehanizacija i osoblje u toku perioda snežnih padavina, redovno održavanje biljaka i 			zelenih površina, redovno održavanje higijene objekta i
 								svih zajedničkih površina, unutrašnjih i spoljnih)</p>
 

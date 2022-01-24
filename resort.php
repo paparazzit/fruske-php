@@ -16,27 +16,22 @@ require 'partials/pageHeader.php';
 							<p>Najveći <span>vodeni svet</span> u Srbiji</p>
 							<ul>
 								<li>
-									12 bazena sa lekovitom termo-mineralnom vodom (6 otvorenih I 6
-									zatvorenih) i 5 vrsta tobogana
+								12 bazena sa lekovitom termo-mineralnom vodom (6 otvorenih i 6 zatvorenih) i 5 vrsta tobogana
 								</li>
 							</ul>
 							<p>
-								Najveći <span>sauna svet</span> u Srbiji - preko 10 vrsta sauna,
-								parnih kupatila, slanih soba, tepidarijuma, itd.)
+							Najveći <span>sauna svet</span> u Srbiji - preko 10 vrsta sauna, parnih kupatila, slanih soba, tepidarijuma, itd.
 							</p>
 							
 								<p>
-									Najveći hotelski kongresni centar u Srbiji (16 konferencijskih
-									sala rasporedjenih u 3 hotela)
+								Najveći hotelski kongresni centar u Srbiji (16 konferencijskih sala raspoređenih u 3 hotela)
 								</p>
 							
-							<p>Najveći <span>dečiji vodeni svet</span> u Srbiji</p>
+							<p>Najveći <span>dečiji vodeni svet</span> u Srbiji:</p>
 							<ul>
 								<li>
-									Zimski dečiji svet sa dva bazena, toboganom i pećinom, letnji
-									dečiji svet sa 15 vrsta vodenih prskalica, suvom igraonicom,
-									bogatim programom za animaciju dece I toboganima za razne
-									uzdraste
+								- Zimski dečiji svet sa dva bazena, toboganom i pećinom, letnji dečiji svet sa 15 vrsta vodenih prskalica,
+								suvom igraonicom, bogatim programom za animaciju dece i toboganima za razne uzraste
 								</li>
 							</ul>
 							<p>
@@ -110,13 +105,11 @@ require 'partials/pageHeader.php';
 							<div class="card_body">
 								<h2>Priroda</h2>
 								<p>
-									Uživajte u tišini i provodite prave trenutke sa dragim osobama
-									u prirodi.
+									Uživajte u tišini i provodite prave trenutke sa dragim osobama u prirodi.
 								</p>
 								<p>
-									Cvrkut ptica, šuškanje lišća i žubor potoka – zvuči kao prava
-									stvar za restart i jedan novi početak u ovom rezidencijalnom
-									kompleksu, okruženom zelenilu.
+								Cvrkut ptica, šuškanje lišća i žubor potoka – zvuči kao prava stvar za restart i jedan novi
+								početak u ovom rezidencijalnom kompleksu, okruženom zelenilom.
 								</p>
 							</div>
 						</div>
@@ -197,8 +190,8 @@ require 'partials/pageHeader.php';
 				<h2>U blizini</h2>
 				<div class="container">
 					<div class="icons_wrapper">
-						<img src="assets/projekat/icon_kula.png" alt="Istorijski spomenik
-Vrdnička kula " />
+						<div class="icon"><img src="assets/projekat/icon_kula.png" alt="Istorijski spomenik
+						Vrdnička kula " /></div>
 						<div class="icon_text">
 							<p>
 								Istorijski spomenik <br />
@@ -207,8 +200,8 @@ Vrdnička kula " />
 						</div>
 					</div>
 					<div class="icons_wrapper">
-						<img src="assets/projekat/icon_kula-2.png" alt="Etno kompleks
-Vrdnička kula " />
+						<div class="icon"><img src="assets/projekat/icon_kula-2.png" alt="Etno kompleks
+						Vrdnička kula " /></div>
 						<div class="icon_text">
 							<p>
 								Etno kompleks <br />
@@ -217,8 +210,8 @@ Vrdnička kula " />
 						</div>
 					</div>
 					<div class="icons_wrapper">
-						<img src="assets/projekat/icon_resort.png" alt="Resort
-Fruške terme" />
+						<div class="icon"><img src="assets/projekat/icon_resort.png" alt="Resort
+						Fruške terme" /></div>
 						<div class="icon_text">
 							<p>
 								Resort <br />
@@ -227,14 +220,16 @@ Fruške terme" />
 						</div>
 					</div>
 					<div class="icons_wrapper">
+					<div class="icon">
 						<img src="assets/projekat/icon_bazeni.png" alt="Otvoreni bazeni" />
-						<div class="icon_text">
+					</div>		
+				<div class="icon_text">
 							<p>Otvoreni bazeni</p>
 						</div>
 					</div>
 					<div class="icons_wrapper">
-						<img src="assets/projekat/icon_premier.png" alt="Hotel
-Premier Aqua" />
+						<div class="icon"><img src="assets/projekat/icon_premier.png" alt="Hotel
+						Premier Aqua" /></div>
 						<div class="icon_text">
 							<p>
 								Hotel <br />
@@ -243,20 +238,28 @@ Premier Aqua" />
 						</div>
 					</div>
 					<div class="icons_wrapper">
+						<div class="icon">
 						<img src="assets/projekat/icon_sport.png" alt="Sportski centar" />
+						</div>
 						<div class="icon_text">
 							<p>Sportski centar</p>
 						</div>
 					</div>
 					<div class="icons_wrapper">
+						<div class="icon">
 						<img src="assets/projekat/icon_staza.png" alt="Staza zdravlja" />
-						<div class="icon_text">
+
+						</div>
+							<div class="icon_text">
 							<p>Staza zdravlja</p>
 						</div>
 					</div>
 					<div class="icons_wrapper">
+						<div class="icon">
 						<img src="assets/projekat/icon_centar.png" alt="Centar" />
-						<div class="icon_text">
+
+						</div>
+					<div class="icon_text">
 							<p>Centar</p>
 						</div>
 					</div>
