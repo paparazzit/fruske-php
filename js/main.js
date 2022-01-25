@@ -249,7 +249,7 @@ if (pano_Slider) {
 
 function slide_pano(e) {
 	e.preventDefault();
-	console.log(e.target.id);
+	// console.log(e.target.id);
 	if (e.target.id === "panoS_2") {
 		pano_Slider.classList.add("render_active");
 		panoSelector_2.classList.add("green");

@@ -125,6 +125,7 @@ section.option_icons {
 			align-items: center;
 			justify-content: center;
 			flex-direction: column;
+			// border: 1px solid green;
 			.icon {
 				height: 65px;
 				width: 89px;
@@ -140,6 +141,7 @@ section.option_icons {
 				text-align: center;
 				margin-top: 20px;
 				font-family: $hdln_font;
+				// border: 1px solid red;
 				p {
 					color: #3d3d3d;
 				}

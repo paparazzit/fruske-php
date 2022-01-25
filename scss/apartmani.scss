@@ -271,9 +271,11 @@ section.render_apart {
 	.pano_wrapper {
 		width: 100%;
 		// border: 2px solid red;
+		height: 400px;
 		overflow: hidden;
 		position: relative;
 		.render_wrapper {
+			height: 100%;
 			display: flex;
 			justify-content: flex-start;
 			// border: 2px solid red;
