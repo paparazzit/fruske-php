@@ -44,15 +44,15 @@
 							
 							<ul>
 								<!-- <li><a href="projekat.html">O projektu</a></li> -->
-								<li><a href="lokacija.html">Lokacija</a></li>
-								<li><a href="resort.html">Resort</a></li>
-								<li><a href="apartmani.html">Apartmani</a></li>
-								<li><a href="nacionalniPark.html">Nacionalni park</a></li>
+								<li><a href="lokacija.php">Lokacija</a></li>
+								<li><a href="resort.php">Resort</a></li>
+								<li><a href="apartmani.php">Apartmani</a></li>
+								<li><a href="nacionalniPark.php">Nacionalni park</a></li>
 								<li><a href="#"   onclick="show_video(event)" 
 							data-src ='https://player.vimeo.com/video/667824551?h=39030031b3&autoplay=1'>Video</a></li>
-								<li><a href="investitor.html">Investitor</a></li>
+								<li><a href="investitor.php">Investitor</a></li>
 								<li><a href="#">Brošura</a></li>
-								<li><a href="kontakt.html">Kontakt</a></li>
+								<li><a href="kontakt.php">Kontakt</a></li>
 							</ul>
 							<p class="copyRight">
 								<span>&copy;2021 Promont Group d.o.o.</span>  <span>/</span>  <span>Design and Development: Aspect Communications</span>

@@ -1024,12 +1024,13 @@ section.investInfo {
   section.investInfo .info_logos {
     display: flex;
     align-self: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap; }
     section.investInfo .info_logos .logo_wrapper {
       margin: 80px 0;
-      flex: 0 0 50%;
-      width: 50%; }
+      flex: 0 0 43%;
+      width: 43%;
+      min-width: 372px; }
       section.investInfo .info_logos .logo_wrapper .img_wrapper {
         margin: 0 auto;
         width: 352px;
@@ -1050,7 +1051,7 @@ section.investInfo {
       line-height: 2; }
       section.investInfo .info_logos .text_wrapper ul {
         list-style-type: "- ";
-        list-style-position: outside;
+        list-style-position: inside;
         margin-left: 8px; }
         section.investInfo .info_logos .text_wrapper ul li {
           margin-bottom: 1rem; }

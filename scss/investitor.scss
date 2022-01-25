@@ -43,13 +43,15 @@ section.investInfo {
 	.info_logos {
 		display: flex;
 		align-self: center;
-		justify-content: space-evenly;
+		justify-content: center;
 		flex-wrap: wrap;
 
 		.logo_wrapper {
 			margin: 80px 0;
-			flex: 0 0 50%;
-			width: 50%;
+			flex: 0 0 43%;
+			width: 43%;
+			min-width: 372px;
+			// border: 1px solid red;
 			.img_wrapper {
 				margin: 0 auto;
 				width: 352px;
@@ -76,7 +78,7 @@ section.investInfo {
 			line-height: 2;
 			ul {
 				list-style-type: "- ";
-				list-style-position: outside;
+				list-style-position: inside;
 				margin-left: 8px;
 				li {
 					margin-bottom: 1rem;
