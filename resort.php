@@ -156,7 +156,7 @@ require 'partials/pageHeader.php';
 
 				<div class="container">
 					<div class="row">
-						<a href="#" class="blizu_card">
+						<a href="https://www.frusketerme.com/" target="_blank" class="blizu_card">
 							<div class="card_img">
 								<img src="assets/resort/card_7.jpg" alt="Bazeni" />
 							</div>
@@ -165,7 +165,7 @@ require 'partials/pageHeader.php';
 							</div>
 						</a>
 
-						<a href="#" class="blizu_card">
+						<a href="https://www.hotelpremieraqua.com/" target="_blank" class="blizu_card">
 							<div class="card_img">
 								<img src="assets/resort/card_8.jpg" alt="Bazeni fruske gora" />
 							</div>
@@ -174,7 +174,7 @@ require 'partials/pageHeader.php';
 							</div>
 						</a>
 
-						<a href="#" class="blizu_card">
+						<a href="https://www.etnoselo-vk.rs/" target="blank" class="blizu_card">
 							<div class="card_img">
 								<img src="assets/resort/card_9.jpg" alt="Vrdnicka kula" />
 							</div>
