@@ -5,45 +5,115 @@ $title="Resort";
 require 'partials/pageHeader.php';
 ?>
 			
+			<section class="resort_des">
+				<div class="container">
+					<div class="row">
+
+						<hgroup class="hg_blizu">
+							<div class="hg_wrapper">
+								<h3 class="top">“Resort sa posebnim životnim stilom, <br>
+									koji kupujete zajedno sa kupovinom nekretnine.”</h3>
+							
+							</div>
+						</hgroup>
+
+						<div class="resort_card" id="res_card">
+							<div class="card_img">
+								<img src="assets/resort/card_10.jpg" alt="Kondo naselje Fruške Residence" />
+							</div>
+							<div class="card_body">
+								<h2>Prve <span class="bld">Terme</span> u Srbiji</h2>
+								<p>
+								Hotel Fruške Terme
+								</p>
+								
+							</div>
+						</div>
+
+						<div class="resort_card" id="res_card">
+							<div class="card_img">
+								<img src="assets/resort/card_11.jpg" alt="Wellness &
+									Spa program" />
+							</div>
+							<div class="card_body">
+								<h2>Prvi <span class="bld">Adults Only</span>
+								Hotel u Srbiji</h2>
+								<p>
+								Hotel Premier Aqua
+								</p>
+							</div>
+						</div>
+
+						<div class="resort_card" id="res_card">
+							<div class="card_img">
+								<img src="assets/resort/card_12.jpg" alt="usluge" />
+							</div>
+							<div class="card_body">
+								<h2 id="card_header_def">Najveći <span class="bld">hotelski kongresni centar</span> u Srbiji</h2>
+								<p>
+								16 konferencijskih sala rasporedjenih u 3 hotela
+								</p>
+							</div>
+						</div>
+
+						<div class="resort_card" id="res_card">
+							<div class="card_img">
+								<img src="assets/resort/card_13.jpg" alt="Priroda" />
+							</div>
+							<div class="card_body">
+								<h2>Najveći <span class="bld">vodeni svet</span> u Srbiji</h2>
+								<p>
+								12 bazena sa lekovitom termo-mineralnom vodom
+								(6 otvorenih i 6 zatvorenih) i 8 vrsta tobogana za odrasle i
+								decu različitog uzrasta
+								</p>
+							</div>
+						</div>
+
+						<div class="resort_card" id="res_card">
+							<div class="card_img">
+								<img src="assets/resort/card_14.jpg" alt="Istrazivanje" />
+							</div>
+							<div class="card_body">
+								<h2>Najveći <span class="bld">sauna svet</span> u Srbiji</h2>
+								<p>
+								Preko 10 vrsta sadržaja u sauna svetu (slana soba, parno kupatilo, kaldarijum, ruska banja, infrared sauna, finska sauna, hromo sauna, panorama sauna, tepidarujum, kneipp staza, vodeni kreveti, relax soba, solarijum)
+								</p>
+							</div>
+						</div>
+
+						<div class="resort_card" id="res_card">
+							<div class="card_img">
+								<img src="assets/resort/card_15.jpg" alt="Opustanje" />
+							</div>
+							<div class="card_body">
+								<h2>Najveći <span class="bld">dečiji vodeni svet</span> u Srbiji</h2>
+								<p>
+								Zimski dečiji svet sa dva bazena, toboganom i pećinom </p>
+								<p>
+								Letnji dečiji svet sa 15 vrsta vodenih prskalica, suvom 
+								igraonicom, bogatim programom za animaciju dece I toboganima
+								 za razne uzraste
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
 
 			<section class="resort_des">
 				<div class="container">
 					<div class="row">
-						
-						<div class="text_wrapper">
-							<h2>O RESORTU</h2>
-							<p>Sadržaji Resorta Fruške Terme:</p>
-							<p>Najveći <span>vodeni svet</span> u Srbiji</p>
-							<ul>
-								<li>
-								12 bazena sa lekovitom termo-mineralnom vodom (6 otvorenih i 6 zatvorenih) i 5 vrsta tobogana
-								</li>
-							</ul>
-							<p>
-							Najveći <span>sauna svet</span> u Srbiji - preko 10 vrsta sauna, parnih kupatila, slanih soba, tepidarijuma, itd.
-							</p>
-							
-								<p>
-								Najveći hotelski kongresni centar u Srbiji (16 konferencijskih sala raspoređenih u 3 hotela)
-								</p>
-							
-							<p>Najveći <span>dečiji vodeni svet</span> u Srbiji:</p>
-							<ul>
-								<li>
-								- Zimski dečiji svet sa dva bazena, toboganom i pećinom, letnji dečiji svet sa 15 vrsta vodenih prskalica,
-								suvom igraonicom, bogatim programom za animaciju dece i toboganima za razne uzraste
-								</li>
-							</ul>
-							<p>
-								Prvi <span>Adults Only Hotel u Srbiji</span> – Hotel Premier
-								Aqua
-							</p>
-							<p>Prve <span>Terme</span> u Srbiji – Hotel Fruške Terme</p>
-							<p>
-								Nudistički Spa Prvi <span>Nudistički Spa</span> u Srbiji – Adam
-								& Eve Spa, Hotel Fruške Terme
-							</p>
-						</div>
+
+						<hgroup class="hg_blizu">
+							<div class="hg_wrapper">
+								<h3>Kako kaže ona stara izreka – U zdravom telu, zdrav duh!</h3>
+								<h2>Birajte ono najbolje – Fruške Residence!</h2>
+							</div>
+						</hgroup>
+
 						<div class="resort_card">
 							<div class="card_img">
 								<img src="assets/resort/card_1.jpg" alt="Kondo naselje Fruške Residence" />
@@ -51,14 +121,12 @@ require 'partials/pageHeader.php';
 							<div class="card_body">
 								<h2>Odmor</h2>
 								<p>
-									Kondo naselje Fruške Residence, budućim stanarima pruža
-									mogućnost da maksimalno iskoristite sve blagodeti života na
-									planini, u prirodi.
+								Kondo naselje Fruške Residence, budućim stanarima pruža mogućnost da maksimalno iskoristite sve blagodeti života na planini, u prirodi.
+
 								</p>
 								<p>
-									Okružen šumom i čistim vazduhom, ovaj rezidencijalni kompleks
-									predstavlja pravu oazu mira, bez buke i užurbanog načina
-									života, kakav je danas u gradskim sredinama.
+								Okružen šumom i čistim vazduhom, ovaj rezidencijalni kompleks predstavlja pravu oazu mira, bez buke i užurbanog načina života.
+
 								</p>
 							</div>
 						</div>
@@ -71,11 +139,7 @@ require 'partials/pageHeader.php';
 							<div class="card_body">
 								<h2>Wellnes & Spa</h2>
 								<p>
-									Vlasnici apartmana mogu da uživaju u bogatoj ponudi Wellness &
-									Spa programa, sportskim terenima Premier, otvorenom dečijem
-									igralištu, konferencijskim salama, etno restoranu i restoranu
-									internacionalne kuhinje, supermarketu, apoteci i mnogim drugim
-									pogodnostima.
+								Vlasnici apartmana mogu da uživaju uz posebne pogodnosti u bogatoj ponudi Wellness & Spa programa, kao i domaćoj i internacionalnoj kuhinji I  otvorenom dečijem igralištu namenjom samo vlasnicima apartmana.
 								</p>
 							</div>
 						</div>
@@ -85,15 +149,12 @@ require 'partials/pageHeader.php';
 								<img src="assets/resort/card_3.jpg" alt="usluge" />
 							</div>
 							<div class="card_body">
-								<h2>Odmor</h2>
+								<h2>Zabava</h2>
 								<p>
-									Vlasnicima su na raspolaganju recepcija, consierge služba
-									24/7, room service usluga i besplatni parking.
+								Vlasnicima su na raspolaganju recepcija, consierge služba 24/7 i dostava iz restorana kako domaće tako i internacionalne kuhinje.
 								</p>
 								<p>
-									Pored samog kompleksa, stanari imaju mogućnost korišćenja
-									zabavnog i rekreativnog sadržaja lanca hotela Fruške Terme
-									Resort-a, koji se nalaze u neposrednoj blizini.
+								Pored samog kompleksa, stanari imaju mogućnost korišćenja zabavnog i rekreativnog sadržaja lanca hotela Fruške Terme Resort-a, koji se nalaze u neposrednoj blizini.
 								</p>
 							</div>
 						</div>
@@ -147,14 +208,13 @@ require 'partials/pageHeader.php';
 			</section>
 
 			<section class="uBlizini">
-				<hgroup class="hg_blizu">
-					<div class="hg_wrapper">
-						<h3>Kako kaže ona stara izreka – U zdravom telu, zdrav duh!</h3>
-						<h2>Birajte ono najbolje – Fruške Residence!</h2>
-					</div>
-				</hgroup>
+			<hgroup class="hg_divider">
+				<div class="hg_line"></div>
+						<img src="assets/resort/logoDivider.svg" alt="">
+					</hgroup>
 
 				<div class="container">
+					
 					<div class="row">
 						<a href="https://www.frusketerme.com/" target="_blank" class="blizu_card">
 							<div class="card_img">
@@ -260,7 +320,7 @@ require 'partials/pageHeader.php';
 
 						</div>
 					<div class="icon_text">
-							<p>Centar</p>
+							<p>Centar Vrdnika</p>
 						</div>
 					</div>
 				</div>

@@ -18,18 +18,18 @@ require "partials/header.php";
 						<div class="contact_left">
 							<div class="left_top">
 								<h3>Pozovite nas</h3>
-								<a href="tel:+381 22 123 456"
-									><span>tel: </span>+381 22 123 456</a
+								<a href="tel:+381 21 443 195"
+									><span>tel: </span>+381 21 443 195</a
 								>
-								<a href="tel:+381 69 123 456"
-									><span>mob: </span>+381 69 123 456</a
+								<a href="+381 63 566 680"
+									><span>mob: </span>+381 63 566 680 </a
 								>
 							</div>
 							<div class="left_bottom">
 								<p class="fruske">Fruške Residence</p>
-								<p>Potes pod kulom BB, Vrdnik, Srbija</p>
-								<a href="mailto:sales@fruskeresidence.com"
-									>sales@fruskeresidence.com</a
+								<p>Staza Zdravlja 24, Banja Vrdnik, Srbija</p>
+								<a href="mailto:info@fruskeresidence.rs"
+									>info@fruskeresidence.rs</a
 								>
 							</div>
 						</div>

@@ -31,7 +31,7 @@ require "partials/header.php"
 						</p>
 						<p>
 							Potvrda ekspertize u razvoju turističkih destinacija jesu mnoga
-							priznanja za Fruške terme Resort & Residences, kao i zadovljni
+							priznanja za Fruške Terme Resort & Residences, kao i zadovljni
 							gosti iz različitih delova sveta.
 						</p>
 					</div>

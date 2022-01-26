@@ -253,13 +253,13 @@ section.render_apart {
 		}
 	}
 	.pano_selector {
-		width: 350px;
+		width: 500px;
 		margin: 0 auto 30px auto;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
 		.btn {
-			width: 150px;
+			width: 210px;
 			text-align: center;
 			font-weight: 400;
 			font-size: 1rem;
@@ -347,6 +347,12 @@ section.render_apart {
 				line-height: 1.2;
 			}
 		}
+		.pano_selector {
+			width: 350px;
+			.btn {
+				width: 160px;
+			}
+		}
 	}
 }
 
@@ -372,9 +378,17 @@ section.pogodnosti {
 			.left,
 			.right {
 				flex: 0 0 43%;
-				p {
-					line-height: 1.4;
-					font-size: 1rem;
+				ul {
+					list-style-position: outside;
+					list-style-type: "-";
+					padding-left: 5px;
+
+					li {
+						line-height: 1.4;
+						padding-left: 15px;
+						font-size: 1rem;
+						margin-bottom: 20px;
+					}
 				}
 			}
 			.dwnl_links {

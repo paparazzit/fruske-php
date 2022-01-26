@@ -130,12 +130,10 @@
 						<hgroup class="hero-hg">
 							<h1  data-direction="top" data-scroll="70">Oaza mira</h1>
 							<p>
-								Dobro došli u novu eru modernog načina stanovanja u srcu Fruške
-								gore. Fruške Residence je integrisani rezidencijalni kompleks koji
-								Vam pruža život ispunjen zelenilom, daleko od zagađene okoline
-								urbanih sredina. Sada je pravo vreme za mir, tišinu i čist vazduh.
-								<br>
-								Fruške Residence - za bolje sutra.
+							Dobro došli u novu eru modernog načina stanovanja u srcu Fruške gore. <br> <br>
+							Okružen šumom i čistim vazduhom, projekat Fruške Residence predstavlja pravu oazu mira,
+							bez buke i užurbanog načina života, kakav je danas u gradskim sredinama. <br><br>
+							Sada je pravo vreme za mir, tišinu i čist vazduh.
 							</p>
 							<a href="#" class="btn white mt-2"
 								>Saznaj više <img src="assets/thin_big_right.png" alt="arrow"
@@ -177,13 +175,14 @@
 					</div>
 				</header>
 				<!-- #region MAP -->
-				<section class="map-section apear_scroll" id="map-section">
-					<div class="container">
-						<article class="map-legend">
+				<section class="map-section apear_scroll"    id="map-section">
+					<div class="container" onclick="void(0);">
+						<article class="map-legend" >
 							<h2>Premium lokacija</h2>
 	
 							<p>
-								Na samo 78 km od Beograda i 40 km od Novog Sada, Fruške Residence predstavljaju idealnu lokaciju za svakodnevni život na planini.
+								Na samo <b>80 km od Beograda i 20 km</b> od Novog Sada,
+								Fruške Residence predstavljaju idealnu lokaciju za svakodnevni život na planini.
 							</p>
 							<ol>
 								<li class="location" data-point="1"><span>1.</span> Fruške Residence</li>
@@ -452,9 +451,11 @@
 							<div class="card_style ">
 								<h2 class="card_accent">Apartmani</h2>
 								<p>
-									Fruške Residence se sastoji od 140 apartmana, za ličnu upotrebu
-									ili za izdavanje – izbor je isključivo Vaš!
+								Fruške Residence – zdrava i zelena oaza mira
+								 na obroncima Fruške gore, najstarijeg nacionalnog parka u Srbiji.
 								</p>
+								<br>
+								<p>Resort sa posebnim životnim stilom, koji kupujete zajedno sa kupovinom nekretnine.</p>
 								<a href="apartmani.php" class="btn green mt-2">Saznaj više <img src="assets/arrow_white.png" alt="arrow"
 									/></a></a>
 							</div>

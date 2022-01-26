@@ -9,7 +9,10 @@ let map_section_1 = document.querySelector("#map_container");
 let burger = document.querySelector(".burger");
 let drop_down_nav = document.querySelector(".drop_wrapper");
 let links = document.querySelectorAll(".drop_down .link");
-
+let card_header_def = document.querySelector("#card_header_def");
+let card_headers = document.querySelectorAll(
+	"#res_card .card_body h2:not(#card_header_def)"
+);
 window.addEventListener("click", show_drop_nav);
 
 function show_drop_nav(e) {
@@ -80,9 +83,23 @@ function start() {
 	}
 
 	blur_img();
-
+	if (!card_headers) {
+		return;
+	}
+	cardHeaderH();
 	// enableScroll();
 	// resizeBodyHeight();
+}
+
+function cardHeaderH() {
+	if (!card_header_def) {
+		return;
+	}
+
+	let header_h = card_header_def.offsetHeight;
+	card_headers.forEach((header) => {
+		header.style.height = `${header_h}px`;
+	});
 }
 
 function resize() {
@@ -100,6 +117,11 @@ function resize() {
 		slider_2.start();
 	}
 	blur_img();
+
+	if (!card_headers) {
+		return;
+	}
+	cardHeaderH();
 	// resizeBodyHeight();
 }
 
@@ -219,9 +241,11 @@ window.addEventListener("scroll", () => {
 
 	apear_In(apear_items, ws);
 	apartmani_set();
-	if (contact_badge) {
-		show_contact();
+	if (!contact_badge) {
+		return;
 	}
+	show_contact();
+
 	isScrolling = setTimeout(function () {
 		// Run the callback
 		remove_contact();

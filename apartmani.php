@@ -31,8 +31,7 @@ require "partials/pageHeader.php";
 					<h3>U dodiru sa prirodom</h3>
 					
 					<p>
-						Apartmani nude udobnost i potpuni komfor za svakodnevni život, ali
-						na drugačiji način od života u gradu.
+					Apartmani nude udobnost i potpuni komfor za svakodnevni život. Uživajte u tišini prirode I provodite dragocene trenutke sa porodicom I dragim osobama.
 					</p>
 					
 				</div>
@@ -53,8 +52,8 @@ require "partials/pageHeader.php";
                         proverite dostupnost na 3D modelu</h2>
                      </hgroup>
                      <div class="pano_selector">
-                         <a href="#" class="btn green" id="panoS_1">Lamela A</a>
-                         <a href="#" class="btn white" id="panoS_2">Lamela B</a>
+                         <a href="#" class="btn green" id="panoS_1">Apartmani Gorocvet</a>
+                         <a href="#" class="btn white" id="panoS_2"> Apartmani Orhideja</a>
                      </div>
                     
                 <div class="pano_wrapper">
@@ -89,31 +88,37 @@ require "partials/pageHeader.php";
 						<div class="left">
 							<p>“Resort sa posebnim životnim stilom, koji kupujete zajedno sa kupovinom nekretnine.”</p>
 
-							<p>- Vlasnici apartmana postaju i vlasnici <span class="bold">“Platinum kartice”</span> koja omoguća <span class="bold">20% popusta</span> na ulaznice u <span class="bold">Termalni Svet Resorta Fruške Terme</span> (vodeni svet sa 12 bazena sa termalnom vodom,
-								sauna svet sa preko 10 vrsta sauna, dečiji vodeni svet sa toboganima, i još mnogo toga)</p>
+							<ul>
+							<li>Vlasnici apartmana postaju i vlasnici <span class="bold">“Platinum kartice”</span> koja omoguća <span class="bold">20% popusta</span> na ulaznice u <span class="bold">Termalni Svet Resorta Fruške Terme</span> (vodeni svet sa 12 bazena sa termalnom vodom,
+								sauna svet sa preko 10 vrsta sauna, dečiji vodeni svet sa toboganima, i još mnogo toga)</li>
 
-							<p>- Korišćenje <span class="bold">Sportskih Terena “Premier”</span> u sastavu sadržaja Hotela Premier Aqua</p>
+							<li>Korišćenje <span class="bold">Sportskih Terena “Premier”</span> u sastavu sadržaja Hotela Premier Aqua</li>
 
-							<p>- Korišćenje moderne <span class="bold">teretane</span> opremljenje Techno Gym opremom, u sklopu Hotela Fruške Terme</p>
-							<p>- Korišćenje <span class="bold">zatvorene igraonice za decu</span>, u sklopu Hotela Fruške Terme</p>
-							<p>- <span class="bold">Igralište za decu na otvorenom</span> prilagođeno deci svih uzrasta, sa pristupom ograničenim samo za vlasnike apartmana kondo naselja Fruške Residence</p>
-							<p>- Na raspolaganju <span class="bold">Concierge služba</span> Hotela Fruške Terme (organizacija izleta i aktivnosti; rezervacija restorana; rezervacija termina za masažu; transfera do vinarija, manastira, itd.)</p>
-							<p>- <span class="bold">Recepcija sa portirom 24/7</span>, obezbeđenje kompleksa i kontrola pristupa</p>
+							<li>Korišćenje moderne <span class="bold">teretane</span> opremljenje Techno Gym opremom, u sklopu Hotela Fruške Terme</li>
+							<li>Korišćenje <span class="bold">zatvorene igraonice za decu</span>, u sklopu Hotela Fruške Terme</li>
+							<li><span class="bold">Igralište za decu na otvorenom</span> prilagođeno deci svih uzrasta, sa pristupom ograničenim samo za vlasnike apartmana kondo naselja Fruške Residence</li>
+							<li>Na raspolaganju <span class="bold">Concierge služba</span> Hotela Fruške Terme (organizacija izleta i aktivnosti; rezervacija restorana; rezervacija termina za masažu; transfera do vinarija, manastira, itd.)</li>
+							<li><span class="bold">Recepcija sa portirom 24/7</span>, obezbeđenje kompleksa i kontrola pristupa</li>
+							
+							</ul>
 							
 						</div>
 						<div class="right">
-							<p>- U sastavu kompleksa se će se nalaziti brendirani restoran, supermarket, apoteka kao i drugi komplementarni sadržaji</p>
-							<p>- Usluga višestruko nagrađivane <span class="bold">ordinacije za fizikalnu medicinu i rehabilitaciju “Aqua Medica”</span> u sklopu Hotela Premeir Aqua</p>
-							<p>- <span class="bold">Održavanje objekta</span> (Zimska služba-obezbeđena mehanizacija i osoblje u toku perioda snežnih padavina, redovno održavanje biljaka i 			zelenih površina, redovno održavanje higijene objekta i
-								svih zajedničkih površina, unutrašnjih i spoljnih)</p>
+							<ul>
+							<li>U sastavu kompleksa se će se nalaziti brendirani restoran, supermarket, apoteka kao i drugi komplementarni sadržaji</>
+							<li>Usluga višestruko nagrađivane <span class="bold">ordinacije za fizikalnu medicinu i rehabilitaciju “Aqua Medica”</span> u sklopu Hotela Premeir Aqua</>
+							<li><span class="bold">Održavanje objekta</span> (Zimska služba-obezbeđena mehanizacija i osoblje u toku perioda snežnih padavina, redovno održavanje biljaka i 			zelenih površina, redovno održavanje higijene objekta i
+								svih zajedničkih površina, unutrašnjih i spoljnih)</>
 
-							<p>- <span class="bold">Tehničko održavanje objekta</span> (Redovno mesečno tehničko održavanje i atestiranje liftova, redovni pregledi i atestiranje hidranata, redovna kontrola i atestiranje protivpožarnih sistema i
-							aparata)</p>
-							<p>- Usluga <span class="bold">pranja posteljine i peškira</span> u sklopu kondominijuma Fruške Residence</p>
-							<p>- Usluga <span class="bold">punjenja električnih automobila</span> – brzi ABB punjači elektro vozila u sklopu kompleksa</p>
-							<p>- Usluga <span class="bold">autoperionice</span> u sklopu kompleksa</p>
-							<p>- <span class="bold">Garažno mesto</span> u sklopu objekta – opciono</p>
-							<p>- <span class="bold">Opremanje apartmana</span> – opciono</p>
+							<li><span class="bold">Tehničko održavanje objekta</span> (Redovno mesečno tehničko održavanje i atestiranje liftova, redovni pregledi i atestiranje hidranata, redovna kontrola i atestiranje protivpožarnih sistema i
+							aparata)</>
+							<li>Usluga <span class="bold">pranja posteljine i peškira</span> u sklopu kondominijuma Fruške Residence</>
+							<li>Usluga <span class="bold">punjenja električnih automobila</span> – brzi ABB punjači elektro vozila u sklopu kompleksa</>
+							<li>Usluga <span class="bold">autoperionice</span> u sklopu kompleksa</>
+							<li><span class="bold">Garažno mesto</span> u sklopu objekta – opciono</>
+							<li><span class="bold">Opremanje apartmana</span> – opciono</>
+							</ul>
+							
 
 						</div>
 						<div class="dwnl_links">
@@ -122,8 +127,10 @@ require "partials/pageHeader.php";
 							<a href="http://fruske.srdjansrdjanov.info/Apartmani_info/lamela_b.pdf" target="_black"  class="btn white">POGLEDAJTE SKICE APARTMANA <br> ORHIDEJA - LAMELA B</a>
 						</div>
 						<div class="add_info">
-					<p>	Za više informacija o preostalim slobodnim apartmanima i za zakazivanje sastanka,
-						pozovite <a href="tel:+38163495477" class="bold">+38163495477</a> ili pošaljite mail na <a href="mailto:info@fruskeresidence.com" class="bold">info@fruskeresidence.com</a></p>
+					<p>	Za više informacija o preostalim slobodnim apartmanima i za zakazivanje sastanka, <br>
+						pozovite <a href="tel:+381 63 566 680" class="bold">+381 63 566 680</a> 
+						ili pošaljite mail na 
+						<a href="mailto:info@fruskeresidence.rs" class="bold">info@fruskeresidence.rs</a></p>
 						</div>
 					</div>
 				</div>

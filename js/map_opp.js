@@ -10,17 +10,16 @@ function Map_points(map_container, list_cont, map_section) {
 		{
 			hdl: "Premium kondo naselje",
 
-			text: `<p>Fruške Residence se sastoji od 140 apartmana, za ličnu upotrebu ili za izdavanje – izbor je isključivo Vaš!</p>
-			<p>Apartmani nude udobnost i potpuni komfor za svakodnevni život, ali na drugačiji način od života u gradu.</p>`,
+			text: `<p>Fruške Residence, integrisani rezidencijalni kompleks prvi ove vrste na Fruškoj gori, sa vodećim termalnim spa kompleksom na samo 100 metara od Vašeg apartmana!</p>`,
 			img: "assets/map/card_2.jpg",
 		},
 		{
 			hdl: `Istorijski spomenik
 			Vrdnička kula`,
 
-			text: `<p>Vrdnička kula predstavlja neprocenjivi spomenik kulture, za koji se veruje da datira još od doba Rimljana. Smeštena je nedaleko od starog naselja Vrdnik.
-			</p>
-			<p>Sa vrha visoke kule, smeštene na bregu, pruža se neverovatan pogled na šumovite obronke najstarijeg Nacionalnog parka u Srbiji.</p>`,
+			text: `<p>Vrdnička kula predstavlja neprocenjivi spomenik kulture,
+			 koji datira još od doba Rimljana i Cara Probusa (III vek). Smeštena je nedaleko od starog naselja Vrdnik.</p>
+			 <p>Sa vrha visoke kule, smeštene na bregu, pruža se neverovatan pogled na šumovite obronke najstarijeg Nacionalnog parka u Srbiji.</p>`,
 			img: "assets/map/card_3.jpg",
 		},
 		{
@@ -45,26 +44,42 @@ function Map_points(map_container, list_cont, map_section) {
 		{
 			hdl: `Termalna Rivijera`,
 
-			text: `<p>Termalnu Rivijeru čini Panoramski “infinity” bazen sa pogledom na Frušku goru sa jedinstvenim staklenim zidom (500 m2) zatim Poluolimpijski “infinity” bazen (300 m2), Bazen za decu sa
-			 prskalicama (300m2) kao i Mini aqua park sa tri vrste tobogana.</p>`,
+			text: `<p>Letnja Termalna Rivijera, na samo 80 metara od apartmanskog 
+			kompleksa, otvara se u maju 2022. godine dodatno će obogatiti wellness
+			& spa ponudu Fruških Termi.</p>
+			<p>Letnju Termalnu Rivijeru čine 3 prostrana otvorena bazena (Panoramski “infinity” bazen sa pogledom na Frušku goru sa jedinstvenim staklenim zidom - 500 m2, poluolimpijski “infinity” bazen - 300 m2, i bazen za decu sa 15 vrsta prskalica - 300m2, kao i Mini Aqua Park sa pet vrsta tobogana.</p>`,
 			img: "assets/map/card_7.jpg",
 		},
 		{
 			hdl: "Hotel Premier Aqua",
 			hdl2: "Premium zgrada sa apartmanima",
-			text: `<p>Hotel Premier Aqua 5* izgrađen je 2012. godine kao prvi hotel sa 5 zvezdica u Banji Vrdnik kao i prvi Adults-Only hotel u Srbiji.</p>`,
+			text: `<p>Hotel Premier Aqua 5* izgrađen je 2012. godine kao prvi hotel 
+			sa 5 zvezdica u Banji Vrdnik kao i prvi Adults-Only hotel u Srbiji.</p>
+			<p>Budući vlasnici apartmana u kompleksu Fruške Residence na samo 1,5km,
+			u sklopu Hotela Premier Aqua 5*, imaju na raspologanju usluge Ordinacije Aqua Medica,
+			 nagradjene za najbolji Medical Spa program u Evropi od strane Evropske SPA Asocijacije
+			 (Best Innovative Medical Spa in Europe 2019).</p>`,
 			img: "assets/map/card_5.jpg",
 		},
 		{
 			hdl: `Sportski tereni`,
 
-			text: `<p>Godine 2014. nadomak hotela otvaraju se sportski tereni Premier. Tri teniska i jedan multifunkcionialni teren predstavljaju sportsko-rekreativni dopunski sadržaj za sve goste prvog hotelsko-turističkog kompleksa Promont Hotelijerstva, hotela Premier Aqua.</p>`,
+			text: `<p>Godine 2014. nadomak hotela otvaraju se sportski tereni Premier. Tri teniska i jedan multifunkcionialni teren predstavljaju sportsko-rekreativni dopunski sadržaj 
+			na raspolaganju budućim vlasnicima apartmana u kondo naselju, nekretnine ušuškane u zagrljaju Fruške gore.</p>`,
 			img: "assets/map/card_1.jpg",
 		},
 		{
 			hdl: `Staza zdravlja`,
 
-			text: `<p>Staza zdravlja dužine 1,96km, povezuje Banju Vrdnik sa Vrdničkom kulom i kao takva predstavlja idealnu rutu za ljubitelje rekreativnih aktivnosti u prirodi.</p>`,
+			text: `<p>
+			Staza zdravlja dužine 1,96km, povezuje Banju
+			Vrdnik sa Vrdničkom kulom i kao takva predstavlja idealnu
+			rutu za ljubitelje rekreativnih aktivnosti u prirodi.</p>
+			<p>U planu je i izgradnja linijskog parka uz stazu zdravlja koja
+			 će se protezati do centra Banje Vrdnik, kao I dodatni sportski sadržaji i
+			 amfiteatar za održavanje raznih manifestacija što će ovu destinaciju tzv.
+			 “Nove Banje Vrdnik”  učiniti jedinstvenom I vodećom wellness & spa destinacijom
+			 na ovim prostorima.</p>`,
 			img: "assets/map/card_8.jpg",
 		},
 	];
@@ -84,8 +99,15 @@ function Map_points(map_container, list_cont, map_section) {
 		this.points.forEach((point, index) => {
 			let num = point.getAttribute("data-point");
 			let point_num = point.children[1];
-			let point_width = Math.floor(height * 0.048);
-			let point_height = Math.floor(height * 0.06);
+			let point_width = 0;
+			let point_height = 0;
+			if (width < 550) {
+				point_height = Math.floor(height * 0.09);
+				point_width = Math.floor(height * 0.07);
+			} else {
+				point_width = Math.floor(height * 0.048);
+				point_height = Math.floor(height * 0.06);
+			}
 			let top = (point.style.top = point.getAttribute("data-top") + "%");
 			let left = (point.style.left = point.getAttribute("data-left") + "%");
 			point.style.width = point_width + "px";

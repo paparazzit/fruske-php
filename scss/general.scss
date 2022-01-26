@@ -357,6 +357,9 @@ footer {
 		}
 		p {
 			color: $bg_green;
+			a {
+				color: inherit;
+			}
 		}
 	}
 	position: relative;

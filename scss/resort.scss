@@ -8,35 +8,43 @@ section.resort_des {
 		@supports (-ms-ime-align: auto) {
 			justify-content: space-around;
 		}
-		.text_wrapper {
-			padding: 40px 10%;
 
-			flex: 0 0 80%;
-			width: 80%;
-			ul {
-				list-style-type: "- ";
-				list-style-position: outside;
-				margin-left: 8px;
-				li {
-					margin-bottom: 1rem;
-				}
-				&.bld {
-					font-weight: 500;
-				}
+		.hg_blizu {
+			position: relative;
+			text-align: center;
+			align-self: center;
+			flex: 0 0 100%;
+			margin-bottom: 50px;
+			.hg_wrapper {
+				padding: 0 30px;
+				background-color: white;
+				display: inline-block;
+				position: relative;
+				z-index: 1010;
+			}
+			h3 {
+				font-weight: 500;
+				@include fluid-type(320px, 1920px, 20px, 32px);
+				color: $fnt_light;
 			}
 			h2 {
-				margin-bottom: 0.5em;
+				color: $accents_green;
+				@include fluid-type(320px, 1920px, 25px, 48px);
+				margin-top: 15px;
 			}
-			p {
-				margin-bottom: 1rem;
-				span {
-					font-weight: 500;
-				}
+			h3.top {
+				margin: 0 auto;
+				@include fluid-type(320px, 1920px, 25px, 48px);
 			}
 		}
+
+		.text_wrapper {
+			flex: 0 0 100%;
+			width: 100%;
+		}
 		.resort_card {
-			flex: 0 0 31%;
-			max-width: 535px;
+			flex: 0 0 480px;
+			width: 480px;
 			// height: 855px;
 			border-bottom-right-radius: 5px;
 			border-bottom-left-radius: 5px;
@@ -57,27 +65,43 @@ section.resort_des {
 				align-items: center;
 				justify-content: space-between;
 				flex-direction: column;
-
+				padding: 0 20px 30px 20px;
+				.bld {
+					font-weight: bold;
+				}
 				h2 {
-					font-size: 2.4rem;
+					padding: 0 35px;
+					font-weight: 300;
+					font-size: 1.5rem;
 					text-align: center;
-					margin: 20px 0;
-					display: inline-block;
+					margin-top: 20px;
+					display: block;
+					position: relative;
+					margin-bottom: 30px;
 
 					&::after {
+						position: absolute;
 						content: "";
 						display: block;
-						width: 50%;
+						width: 110px;
 						height: 1px;
+						bottom: -15px;
+						left: 50%;
 						background-color: $accents_green_lgt;
-						margin: 0 auto;
+						transform: translateX(-50%);
 					}
 				}
 				p {
 					text-align: center;
-					margin-bottom: 20px;
+
 					width: 80%;
 					font-weight: 500;
+				}
+			}
+			&#res_card {
+				.card_body {
+					h2 {
+					}
 				}
 			}
 		}
@@ -138,46 +162,76 @@ section.resort_des {
 			}
 		}
 	}
+	@media (max-width: 550px) {
+		.row {
+			.hg_blizu {
+				h3.top {
+					br {
+						display: none;
+					}
+				}
+			}
+		}
+	}
 }
 
 section.uBlizini {
-	.hg_blizu {
-		position: relative;
-		text-align: center;
+	// .hg_blizu {
+	// 	position: relative;
+	// 	text-align: center;
 
-		&::after,
-		&::before {
-			display: block;
-			position: absolute;
-			width: 30%;
-			height: 1px;
-			background-color: $accents_green;
-			content: "";
-			transform: translateY(-50%);
-			-o-transform: translateY(-50%);
-			top: 50%;
-		}
-		&::after {
-			left: 0;
-		}
-		&::before {
-			right: 0;
-		}
-		.hg_wrapper {
-			padding: 0 30px;
-			background-color: white;
-			display: inline-block;
+	// 	&::after,
+	// 	&::before {
+	// 		display: block;
+	// 		position: absolute;
+	// 		width: 30%;
+	// 		height: 1px;
+	// 		background-color: $accents_green;
+	// 		content: "";
+	// 		transform: translateY(-50%);
+	// 		-o-transform: translateY(-50%);
+	// 		top: 50%;
+	// 	}
+	// 	&::after {
+	// 		left: 0;
+	// 	}
+	// 	&::before {
+	// 		right: 0;
+	// 	}
+	// 	.hg_wrapper {
+	// 		padding: 0 30px;
+	// 		background-color: white;
+	// 		display: inline-block;
+	// 		position: relative;
+	// 		z-index: 1010;
+	// 	}
+	// 	h3 {
+	// 		font-family: $text-font;
+	// 		font-weight: 300;
+	// 	}
+	// 	h2 {
+	// 		color: $accents_green;
+	// 		font-size: 2rem;
+	// 		margin-top: 15px;
+	// 	}
+	// }
+	.hg_divider {
+		text-align: center;
+		position: relative;
+		img {
 			position: relative;
 			z-index: 1010;
+			background-color: $white;
 		}
-		h3 {
-			font-family: $text-font;
-			font-weight: 300;
-		}
-		h2 {
-			color: $accents_green;
-			font-size: 2rem;
-			margin-top: 15px;
+		.hg_line {
+			display: block;
+			width: 100%;
+			height: 1px;
+			background-color: $accents_green;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			z-index: 1;
 		}
 	}
 	.container {

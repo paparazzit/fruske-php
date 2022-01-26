@@ -20,12 +20,10 @@ require 'partials/pageHeader.php';
 						<h2>Fruške Residence</h2>
 						<h3>Fruška Gora u dvorištu</h3>
 						<p>
-							Na samo 78 km od Beograda i 23 km od Novog Sada, Fruške Residence
-							predstavljaju idealnu lokaciju za svakodnevni život na planini.
-							Više ne morate da izgubite sate i sate da biste stigli do omiljene
-							planine. Fruška gora je planina budućnosti, a idealna je kako za
-							odmor tako i za život u zdravom i zelenom okruženju.
+						Na samo 80 km od Beograda I 20 km od Novog Sada, Fruške Residence predstavljaju idealnu lokaciju za svakodnevni život na planini.
 						</p>
+						
+						<p>Fruška gora predstavlja planinu koja nudi sve –sat vremena vožnje od Beograda, 45 minuta od medjunarodnog aerodoma, i sa bogatom ponudom koja je aktuelna 365 dana u godini.</p>
 					</div>
 				</div>
 				<div class="right">
@@ -37,7 +35,7 @@ require 'partials/pageHeader.php';
 
 			<!-- #region MAP -->
 			<section class="map-section map_loc apear_scroll" id="map-section">
-				<div class="container">
+				<div class="container" onclick="void(0);">
 					<article class="map-legend">
 						<h2>Premium <br> lokacija</h2>
 

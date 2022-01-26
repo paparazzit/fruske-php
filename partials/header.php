@@ -116,7 +116,7 @@
 											/>
 										</svg>
 									</div>
-									<a class="slide-link" href="">Kontakt</a>
+									<a class="slide-link" href="kontakt.php">Kontakt</a>
 								</div>
 							</div>
 							<div class="langs">

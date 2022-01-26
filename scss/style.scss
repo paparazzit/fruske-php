@@ -586,8 +586,8 @@ header {
 				}
 			}
 			.map-img {
-				flex: 0 0 100%;
-				width: 100%;
+				flex: 0 0 140%;
+				width: 140%;
 
 				min-width: 340px;
 				.card-lamela {
@@ -624,6 +624,8 @@ header {
 					// &.show_info {
 					// 	top: 0;
 					// }
+				}
+				.point_wrapper {
 				}
 			}
 		}

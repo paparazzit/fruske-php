@@ -13,13 +13,13 @@
 							
 									<address>
 										<span>Fruške Residence</span> <br>
-										Potes pod kulom BB, <br>
-										Vrdnik, Srbija
+										Staza Zdravlja 24, <br>
+										Banja Vrdnik, Srbija
 									</address>
 									<div class="contact">
-										<a href="tel:+381 22 123 456"><span>tel: </span>+381 22 123 456</a> <br>
-										<a href="tel:+381 69 123 456"><span>mob: </span> +381 69 123 456</a> <br>
-										<a href="mailto:sales@fruskeresidence.com">sales@fruskeresidence.com</a>
+										<a href="tel:+381 21 443 195"><span>tel: </span>+381 21 443 195</a> <br>
+										<a href="tel:+381 63 566 680"><span>mob: </span>+381 63 566 680</a> <br>
+										<a href="mailto:info@fruskeresidence.rs">info@fruskeresidence.rs</a>
 									</div>
 								
 							</div>
@@ -55,7 +55,7 @@
 								<li><a href="kontakt.php">Kontakt</a></li>
 							</ul>
 							<p class="copyRight">
-								<span>&copy;2021 Promont Group d.o.o.</span>  <span>/</span>  <span>Design and Development: Aspect Communications</span>
+								<span>&copy;2021 Promont Group D.O.O.</span>  <span>/</span>  <span><a href="http://www.aspectcommunications.net/" target="_blank">Design And Development: Aspect Communications</a></span>
 							</p>
 							
 						</div>

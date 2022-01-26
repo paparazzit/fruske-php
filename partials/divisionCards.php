@@ -1,7 +1,7 @@
 
 				<section class="division_cards ">
 					<div class="promont_logo">
-						<img src="assets/division_cards/division_logo.png" alt="">
+						<img src="assets/ivestitor/Promont Group logo.png" alt="">
 						
 					</div>
 					
