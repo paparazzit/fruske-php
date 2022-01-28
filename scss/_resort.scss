@@ -1,3 +1,33 @@
+.hg_blizu {
+	position: relative;
+	text-align: center;
+	align-self: center;
+	flex: 0 0 100%;
+	margin-bottom: 50px;
+	.hg_wrapper {
+		padding: 0 30px;
+		background-color: white;
+		display: inline-block;
+		position: relative;
+		z-index: 1010;
+	}
+	h3 {
+		font-weight: 500;
+		@include fluid-type(320px, 1920px, 20px, 32px);
+		color: $fnt_light;
+		line-height: 1.2;
+	}
+	h2 {
+		color: $accents_green;
+		@include fluid-type(320px, 1920px, 25px, 48px);
+		margin-top: 5px;
+	}
+	h3.top {
+		margin: 0 auto;
+		@include fluid-type(320px, 1920px, 25px, 48px);
+	}
+}
+
 section.resort_des {
 	margin: 100px 0;
 	.row {
@@ -9,34 +39,35 @@ section.resort_des {
 			justify-content: space-around;
 		}
 
-		.hg_blizu {
-			position: relative;
-			text-align: center;
-			align-self: center;
-			flex: 0 0 100%;
-			margin-bottom: 50px;
-			.hg_wrapper {
-				padding: 0 30px;
-				background-color: white;
-				display: inline-block;
-				position: relative;
-				z-index: 1010;
-			}
-			h3 {
-				font-weight: 500;
-				@include fluid-type(320px, 1920px, 20px, 32px);
-				color: $fnt_light;
-			}
-			h2 {
-				color: $accents_green;
-				@include fluid-type(320px, 1920px, 25px, 48px);
-				margin-top: 15px;
-			}
-			h3.top {
-				margin: 0 auto;
-				@include fluid-type(320px, 1920px, 25px, 48px);
-			}
-		}
+		// .hg_blizu {
+		// 	position: relative;
+		// 	text-align: center;
+		// 	align-self: center;
+		// 	flex: 0 0 100%;
+		// 	margin-bottom: 50px;
+		// 	.hg_wrapper {
+		// 		padding: 0 30px;
+		// 		background-color: white;
+		// 		display: inline-block;
+		// 		position: relative;
+		// 		z-index: 1010;
+		// 	}
+		// 	h3 {
+		// 		font-weight: 500;
+		// 		@include fluid-type(320px, 1920px, 20px, 32px);
+		// 		color: $fnt_light;
+		// 		line-height: 1.2;
+		// 	}
+		// 	h2 {
+		// 		color: $accents_green;
+		// 		@include fluid-type(320px, 1920px, 25px, 48px);
+		// 		margin-top: 5px;
+		// 	}
+		// 	h3.top {
+		// 		margin: 0 auto;
+		// 		@include fluid-type(320px, 1920px, 25px, 48px);
+		// 	}
+		// }
 
 		.text_wrapper {
 			flex: 0 0 100%;
@@ -232,6 +263,15 @@ section.uBlizini {
 			top: 50%;
 			transform: translateY(-50%);
 			z-index: 1;
+		}
+	}
+	.hg_blizu {
+		margin-top: 80px;
+		margin-bottom: 20px;
+		.hg_wrapper {
+			h3 {
+				font-style: italic;
+			}
 		}
 	}
 	.container {

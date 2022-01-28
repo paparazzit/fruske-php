@@ -62,8 +62,8 @@ require 'partials/pageHeader.php';
 					</article>
 					<article class="map-img" id="map_container">
 						<img src="assets/map/map_img.png" alt="mapa fruske gore" />
-						<div class="lamela_1 lamele" id="lamela_1"></div>
-						<div class="lamela_2 lamele" id="lamela_2"></div>
+						<a href="apartmani.php" class="lamela_1 lamele" id="lamela_1"></a>
+						<a href="apartmani.php" class="lamela_2 lamele" id="lamela_2"></a>
 						<div
 							class="point_wrapper _1"
 							data-point="1"

@@ -728,6 +728,8 @@ footer {
 		iframe {
 			transition: $transition-out;
 			opacity: 1;
+			height: 70vh;
+			width: 100%;
 		}
 	}
 }

@@ -14,6 +14,9 @@ require "partials/pageHeader.php";
                         <a href="https://configurator.mag.archi/projects/terme-a/"  class="pointer_bubble" target="_black">
                             <h2>B</h2>
                             <p>LAMELA</p>
+							<div class="text">
+								<p>Apartmani <br>Orhideja</p>
+							</div>
                         </a>
                         <div class="bubble_line"></div>
                     </div>
@@ -21,6 +24,9 @@ require "partials/pageHeader.php";
                         <a href="https://configurator.mag.archi/projects/terme-b/"  alt="panorama" target="_black" class="pointer_bubble">
                             <h2>A</h2>
                             <p>LAMELA</p>
+							<div class="text">
+								<p>Apartmani <br>Gorocvet</p>
+							</div>
                         </a>
                         <div class="bubble_line"></div>
                     </div>
@@ -60,21 +66,32 @@ require "partials/pageHeader.php";
 
                     <div class="render_wrapper">
                         <div class="render render_1">
+							<div class="lml_badge">
+								<h2>Lamela A</h2>
+							</div>
                             <img src="assets/apartmani/reneder_ph.jpg" alt="Panorama Fruške Residence ">
+                            <img src="assets/apartmani/render1_mob.jpg" id="r_mob" alt="Panorama Fruške Residence ">
                             <a href="https://configurator.mag.archi/projects/terme-a/" target="blank" class="fullScreen">
                                 <div class="top"></div>
                                 <div class="bottom"></div>
                             </a>
                         </div>
                         <div class="render render_2">
-                            <img src="assets/apartmani/reneder_ph.jpg" alt="Panorama Fruške Residence ">
-                            <img src="assets/apartmani/render_ph_2.jpg" alt="">
+						<div class="lml_badge">
+								<h2>Lamela </h2>
+							</div>
+                        
+                            <img src="assets/apartmani/render_ph_2.jpg" alt="Panorama Fruške Residence">
+                            <img src="assets/apartmani/render2_mob.jpg"  id = "r_mob"alt="Panorama Fruške Residence">
                             <a href="https://configurator.mag.archi/projects/terme-b/" alt="Panorama render" target="blank" class="fullScreen">
                                 <div class="top"></div>
                                 <div class="bottom"></div>
                             </a>
                         </div>
                     </div>
+					<div class="mob_alert">
+						<p>Preporučujemo vam da 3D prikaz pogledate na DESKTOP/LAPTOP uređaju</p>
+					</div>
                 </div>
                 </div>
             </section>
@@ -83,7 +100,9 @@ require "partials/pageHeader.php";
 
 			<section class="pogodnosti">
 				<div class="container">
-					<h2>Posebne pogodnosti vlasnika apartmana:</h2>
+					<div class="hdl_pogodnosti">
+						<h2>Posebne pogodnosti vlasnika apartmana:</h2>
+					</div>
 					<div class="pogodnosti_text">
 						<div class="left">
 							<!-- <p>“Resort sa posebnim životnim stilom, koji kupujete zajedno sa kupovinom nekretnine.”</p> -->
@@ -95,17 +114,21 @@ require "partials/pageHeader.php";
 							<li>Korišćenje <span class="bold">Sportskih Terena “Premier”</span> u sastavu sadržaja Hotela Premier Aqua</li>
 
 							<li>Korišćenje moderne <span class="bold">teretane</span> opremljenje Techno Gym opremom, u sklopu Hotela Fruške Terme</li>
+
 							<li>Korišćenje <span class="bold">zatvorene igraonice za decu</span>, u sklopu Hotela Fruške Terme</li>
+
 							<li><span class="bold">Igralište za decu na otvorenom</span> prilagođeno deci svih uzrasta, sa pristupom ograničenim samo za vlasnike apartmana kondo naselja Fruške Residence</li>
+
 							<li>Na raspolaganju <span class="bold">Concierge služba</span> Hotela Fruške Terme (organizacija izleta i aktivnosti; rezervacija restorana; rezervacija termina za masažu; transfera do vinarija, manastira, itd.)</li>
+
 							<li><span class="bold">Recepcija sa portirom 24/7</span>, obezbeđenje kompleksa i kontrola pristupa</li>
-							
+							<li>U sastavu kompleksa se će se nalaziti brendirani restoran, supermarket, apoteka kao i drugi komplementarni sadržaji</li>
 							</ul>
 							
 						</div>
 						<div class="right">
 							<ul>
-							<li>U sastavu kompleksa se će se nalaziti brendirani restoran, supermarket, apoteka kao i drugi komplementarni sadržaji</>
+							
 							<li>Usluga višestruko nagrađivane <span class="bold">ordinacije za fizikalnu medicinu i rehabilitaciju “Aqua Medica”</span> u sklopu Hotela Premeir Aqua</>
 							<li><span class="bold">Održavanje objekta</span> (Zimska služba-obezbeđena mehanizacija i osoblje u toku perioda snežnih padavina, redovno održavanje biljaka i 			zelenih površina, redovno održavanje higijene objekta i
 								svih zajedničkih površina, unutrašnjih i spoljnih)</>

@@ -76,7 +76,7 @@
 
 				<div class="video_wrapper" onclick="close_video()" >
 						<div class="close" onclick="close_video()"><span class="_1"></span> <span class="_2"></span></div>
-						<iframe width="950" height="534" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<iframe   src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 		
 

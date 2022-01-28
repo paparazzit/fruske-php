@@ -140,34 +140,15 @@
 						<div class="headline-img " >
 							<img src="assets/hero_img-min.png" alt="Premium kondo naselje" />
 							<div class="play-btn-big " onclick="show_video(event)" data-src ='https://player.vimeo.com/video/667824551?h=39030031b3&autoplay=1'>
-								<svg
-									width="133"
-									height="135"
-									viewBox="0 0 133 135"
-									fill="none"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<circle
-										cx="61.5"
-										cy="61.5"
-										r="53.5"
-										stroke="white"
-										stroke-width="2"
-									/>
-									<circle cx="61.5" cy="61.5" r="61.5" fill="#0C5C34" />
-									<path
-										d="M52 44.7977L78.1038 61L52 77.2023V44.7977Z"
-										stroke="white"
-										stroke-width="2"
-									/>
-									<circle
-										cx="69.5"
-										cy="71.5"
-										r="63"
-										stroke="#CCCCCC"
-										stroke-dasharray="2 2"
-									/>
-								</svg>
+
+							<svg width="133" height="135" viewBox="0 0 133 135" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+							<circle cx="61.5" cy="61.5" r="61.5"  id="play"/>
+							<path d="M51 43V79L80 61L51 43Z" id="play_b"  />
+							<circle cx="69.5" cy="71.5" r="63" id="dashed-circle" stroke-dasharray="2 2"/>
+
+							</svg>
+
 							</div>
 						</div>
 					</div>
@@ -198,8 +179,8 @@
 						</article>
 						<article class="map-img" id="map_container">
 							<img src="assets/map/map_img.png" alt="Fruške Residence" />
-							<div class="lamela_1 lamele" id="lamela_1"></div>
-							<div class="lamela_2 lamele" id="lamela_2"></div>
+							<a href="apartmani.php" class="lamela_1 lamele" id="lamela_1"></a>
+							<a href="apartmani.php" class="lamela_2 lamele" id="lamela_2"></a>
 							<div
 							class="point_wrapper _1"
 							data-point="1"

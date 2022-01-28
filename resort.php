@@ -214,6 +214,13 @@ require 'partials/pageHeader.php';
 						<img src="assets/resort/logoDivider.svg" alt="">
 					</hgroup>
 
+					<hgroup class="hg_blizu">
+							<div class="hg_wrapper">
+								<h3>Upoznajte ponudu hotela u okviru Resorta Fruške Terme.</h3>
+								<h2>Dobro došli!</h2>
+							</div>
+						</hgroup>
+
 				<div class="container">
 					
 					<div class="row">
