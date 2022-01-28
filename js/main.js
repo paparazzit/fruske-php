@@ -456,3 +456,7 @@ function form_alerts(el) {
 	console.log(el);
 	el.classList.add("alert");
 }
+
+function linkPrevent(event) {
+	event.preventDefault();
+}

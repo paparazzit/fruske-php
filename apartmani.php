@@ -86,7 +86,7 @@ require "partials/pageHeader.php";
 					<h2>Posebne pogodnosti vlasnika apartmana:</h2>
 					<div class="pogodnosti_text">
 						<div class="left">
-							<p>“Resort sa posebnim životnim stilom, koji kupujete zajedno sa kupovinom nekretnine.”</p>
+							<!-- <p>“Resort sa posebnim životnim stilom, koji kupujete zajedno sa kupovinom nekretnine.”</p> -->
 
 							<ul>
 							<li>Vlasnici apartmana postaju i vlasnici <span class="bold">“Platinum kartice”</span> koja omoguća <span class="bold">20% popusta</span> na ulaznice u <span class="bold">Termalni Svet Resorta Fruške Terme</span> (vodeni svet sa 12 bazena sa termalnom vodom,

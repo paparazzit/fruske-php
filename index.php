@@ -135,9 +135,7 @@
 							bez buke i užurbanog načina života, kakav je danas u gradskim sredinama. <br><br>
 							Sada je pravo vreme za mir, tišinu i čist vazduh.
 							</p>
-							<a href="#" class="btn white mt-2"
-								>Saznaj više <img src="assets/thin_big_right.png" alt="arrow"
-							/></a>
+							
 						</hgroup>
 						<div class="headline-img " >
 							<img src="assets/hero_img-min.png" alt="Premium kondo naselje" />

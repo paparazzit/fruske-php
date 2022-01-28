@@ -88,6 +88,7 @@ require 'partials/pageHeader.php';
 							</div>
 							<div class="card_body">
 								<h2>Najveći <span class="bld">dečiji vodeni svet</span> u Srbiji</h2>
+								
 								<p>
 								Zimski dečiji svet sa dva bazena, toboganom i pećinom </p>
 								<p>

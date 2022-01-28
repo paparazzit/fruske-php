@@ -68,7 +68,7 @@
 					<div class="contact-wrapper">
 						
 						<a href="kontakt.php" class="mail"><img src="assets/icons/mail_white.svg" alt=""></a>
-						<a href="#" class="phone"><img src="assets/icons/phone.svg" alt=""></a>
+						<a href="tel:+381 63 566 680" class="phone"><img src="assets/icons/phone.svg" alt=""></a>
 						
 					</div>
 				</div>

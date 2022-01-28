@@ -57,7 +57,7 @@ require 'partials/pageHeader.php';
 							<li class="location" data-point="7"><span>7.</span> Sportski tereni</li>
 							<li class="location" data-point="8"><span>8.</span> Staza zdravlja</li>
 						</ol>
-						<a href="#" class="btn white mt-2"
+						<a href="https://goo.gl/maps/o3q2HnajHN1KcVTD6" target="_blank" class="btn white mt-2"
 							><img src="assets/icons/google.png" alt="google maps"> Pogledaj na Google mapi</a>
 					</article>
 					<article class="map-img" id="map_container">
@@ -146,7 +146,7 @@ require 'partials/pageHeader.php';
 
 						
 					</article>
-					<a href="#" class="btn white mt-2"
+					<a href="https://goo.gl/maps/o3q2HnajHN1KcVTD6" target="_blank" class="btn white mt-2"
 							><img src="assets/icons/google.png" alt="google maps"> Pogledaj na Google mapi</a>
 				</div>
 			</section>
